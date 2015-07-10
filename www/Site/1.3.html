@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #3300FF;
+}
+body {
+	background-color: #FFFFFF;
+}
+.style3 {font-size: 12px}
+.style6 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #000000;
+	font-style: italic;
+}
+.style9 {
+	font-size: 14pt;
+	color: #3300FF;
+}
+-->
+</style></head>
+
+<body>
+<p align="center" class="style3"><span class="style6">1.3. Определители</span></p>
+<p align="justify" class="style3"><span class="style9">Любой  квадратной матрице <em>n</em>-го порядка <br />
+  <img width="143" height="84" src="main_clip_image070_0002.gif" /><br />
+  можно поставить в соответствие  число, которое называется <strong><em>определителем (детерминантом) </em></strong>матрицы <em>А</em>:<br />
+  <img width="212" height="84" src="main_clip_image072_0001.gif" /><br />
+  <strong><em>Определитель</em></strong>(<strong><em>детерминант</em></strong>) <em>квадратной матрицы 2-го порядка </em>определяется выражением:<br />
+  <img width="215" height="44" src="main_clip_image074_0001.gif" />.<br />
+  <strong><em>Определитель</em></strong><em> квадратной матрицы 3-го порядка</em> определяется по формуле:<br />
+  <img width="535" height="63" src="main_clip_image076_0001.gif" /><br />
+  Существуют  удобные схемы для вычисления определителя третьего порядка:<br />
+  <strong>1)</strong> <br />
+  <img width="385" height="86" src="main_clip_image078.jpg" /><br />
+  <strong>2) <em>правило  “треугольника”</em></strong> (правило Саррюса)<br />
+  <img width="379" height="87" src="main_clip_image080.jpg" /> <br />
+  <strong><em>Минором</em></strong> <em>элемента <img width="17" height="23" src="main_clip_image082_0004.gif" /></em> (обозначение <img width="24" height="23" src="main_clip_image084_0001.gif" />) матрицы <em>А</em> называется определитель матрицы, полученной из исходной матрицы вычеркиванием  <em>i</em>-ой строки и  <em>j</em>-ого столбца. <br />
+  Минор <em>элемента <img width="17" height="23" src="main_clip_image082_0005.gif" /></em>,умноженный на <img width="41" height="23" src="main_clip_image087_0000.gif" />, называется <strong><em>алгебраическим дополнением </em></strong><em>элемента <img width="17" height="23" src="main_clip_image082_0006.gif" /></em> (обозначение <img width="19" height="23" src="main_clip_image090_0002.gif" />): <img width="92" height="25" src="main_clip_image092_0003.gif" />.<br />
+  Схема знаков <img width="19" height="23" src="main_clip_image090_0003.gif" /> для матриц 3-го и 4-го  порядка: <img width="48" height="47" src="main_clip_image094_0001.gif" />, <img width="63" height="60" src="main_clip_image096_0001.gif" />.<br />
+  <strong><u>Свойства  определителей</u></strong><br />
+  1.  Определитель не изменяется при замене всех его строк соответствующими  столбцами, т.е. <img width="80" height="20" src="main_clip_image098_0000.gif" />.<br />
+  2.  Определитель меняет знак на противоположный при перестановке двух строк (или  столбцов).<br />
+  3.  Определитель с двумя одинаковыми строками (или столбцами) равен нулю.<br />
+  4.  Определитель равен нулю, если все элементы некоторой строки (или столбца) равны  нулю.<br />
+  5. Множитель,  общий для всех элементов некоторой строки (или столбца), можно вынести за знак определителя.<br />
+  6.  Определитель не изменится, если к элементам некоторой строки (или столбца)  прибавить соответствующие элементы другой строки (или столбца), предварительно  умножив их на один и тот же множитель.<br />
+  7.  Определитель равен сумме произведений элементов любой строки (или столбца) на  их алгебраические дополнения:                <img width="273" height="48" src="main_clip_image100_0000.gif" /><br />
+  <em>Свойство 7</em> является еще одним способом  вычисления определителей и называется <strong><em>методом разложения по строке</em> (или  столбцу).</strong> Например, для матрицы третьего порядка с учетом знаков  алгебраических дополнений, получим:                <img width="415" height="63" src="main_clip_image102_0000.gif" /><br />
+  Метод  разложения по строке (или столбцу) значительно упрощает вычисление  определителей, если в какой-либо строке (или столбце) все элементы, кроме  одного равны нулю.</span></p>
+<p align="justify" class="style9"><strong>ПРИМЕРЫ</strong><br />
+    <strong><u>Пример 3.1.</u></strong> Вычисление определителя 2-го порядка: <img width="171" height="41" src="main_clip_image002_0004.gif" /><br />
+    <strong><u>Пример 3.2.</u></strong> Вычисление определителя 3-го порядка (по схеме): <br />
+    <img width="69" height="63" src="main_clip_image004_0005.gif" /><img width="80" height="47" src="main_clip_image006_0005.gif" /><img width="287" height="36" src="main_clip_image008_0006.gif" /><br />
+    <strong><u>Пример 3.3.</u></strong> Вычисление определителя 3-го порядка методом  разложения по строке: <br />
+    <img width="72" height="63" src="main_clip_image010_0006.gif" /><img width="373" height="41" src="main_clip_image012_0005.gif" /><br />
+    <strong><u>Пример 3.4.</u></strong> Вычисление определителя 3-го порядка методом  разложения по столбцу с предварительными упрощающими преобразованиями: <br />
+    <img width="65" height="63" src="main_clip_image014_0004.gif" /><img width="167" height="53" src="main_clip_image016_0004.gif" /><img width="103" height="63" src="main_clip_image018_0004.gif" /><img width="213" height="41" src="main_clip_image020_0004.gif" /><br />
+    <strong><u>Пример 3.5.</u></strong> Решить уравнение: <img width="92" height="68" src="main_clip_image022_0004.gif" /><br />
+    <u>Решение:</u> Применив метод разложения по столбцу для вычисления определителя,  получим:<br />
+    <img width="81" height="68" src="main_clip_image024_0008.gif" /><img width="279" height="41" src="main_clip_image026_0008.gif" /><br />
+  Отсюда, решая квадратное уравнение<img width="93" height="20" src="main_clip_image028_0008.gif" />, находим, что <em>x</em>=2 или 3.<br />
+  <u>Проверка:</u> <br />
+  <img width="69" height="59" src="main_clip_image030_0009.gif" /><img width="143" height="35" src="main_clip_image032_0004.gif" /><img width="195" height="16" src="main_clip_image034_0005.gif" />.<br />
+  <img width="67" height="59" src="main_clip_image036_0003.gif" /><img width="141" height="35" src="main_clip_image038_0003.gif" /><img width="193" height="16" src="main_clip_image040_0004.gif" />.<br />
+  <u>Ответ:</u> <em>x&nbsp;</em>= {2; 3}.<br />
+  <strong>Вопросы и упражнения для самоконтроля</strong><br />
+  Вычислить определители:</p>
+<div align="center" class="style9">
+  <div align="justify">
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+        <td width="14%"><br />
+          1) <img width="43" height="41" src="main_clip_image042_0004.gif" />; </td>
+        <td width="16%"><p align="center">2) <img width="51" height="41" src="main_clip_image044_0003.gif" />;</p></td>
+        <td width="26%"><p align="center">3) <img width="92" height="41" src="main_clip_image046_0004.gif" />;</p></td>
+        <td width="18%"><p align="center">4) <img width="61" height="63" src="main_clip_image048_0003.gif" />;</p></td>
+        <td width="23%"><p align="center">5)<img width="81" height="81" src="main_clip_image050_0004.gif" />.</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p align="justify" class="style9"><strong>УПРАЖНЕНИЯ</strong><br />
+  Вычислить  определители:</p>
+<div align="justify" class="style9">
+  <table border="0" cellspacing="0" cellpadding="0" width="614">
+    <tr>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="53" height="41" src="main_clip_image052_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="55" height="41" src="main_clip_image054_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="59" height="41" src="main_clip_image056_0004.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="154"><ol>
+        <ol>
+          <li><img width="79" height="63" src="main_clip_image058_0003.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="63" height="63" src="main_clip_image060_0003.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="73" height="63" src="main_clip_image062_0003.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="77" height="63" src="main_clip_image064_0003.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="154"><ol>
+        <ol>
+          <li><img width="65" height="63" src="main_clip_image066_0003.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="69" height="63" src="main_clip_image068_0003.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="68" height="63" src="main_clip_image070_0003.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="153"><ol>
+        <ol>
+          <li><img width="56" height="63" src="main_clip_image072_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="154"><ol>
+        <ol>
+          <li><img width="77" height="63" src="main_clip_image074_0002.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+  </table>
+</div>
+<p align="justify" class="style9">Вычислить определитель методом разложения по строке (столбцу),  преобразовав его при необходимости:</p>
+<div align="justify" class="style9">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="146" valign="top"><ol>
+        <ol>
+          <li><img width="84" height="63" src="main_clip_image076_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="141" valign="top"><ol>
+        <ol>
+          <li><img width="67" height="63" src="main_clip_image078_0001.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="145" valign="top"><ol>
+        <ol>
+          <li><img width="75" height="63" src="main_clip_image080_0001.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="142" valign="top"><ol>
+        <ol>
+          <li><img width="89" height="63" src="main_clip_image082_0007.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="121" valign="top"><ol>
+        <ol>
+          <li><img width="67" height="63" src="main_clip_image084_0002.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="146" valign="top"><ol>
+        <ol>
+          <li><img width="79" height="63" src="main_clip_image086_0001.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="141" valign="top"><ol>
+        <ol>
+          <li><img width="77" height="63" src="main_clip_image088_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="145" valign="top"><ol>
+        <ol>
+          <li><img width="87" height="63" src="main_clip_image090_0004.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="142" valign="top"><ol>
+        <ol>
+          <li><img width="87" height="63" src="main_clip_image092_0004.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="121" valign="top"><p>&nbsp;</p></td>
+    </tr>
+  </table>
+</div>
+<p align="justify" class="style9">Решить уравнение:</p>
+<div align="justify">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="144" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="97" height="68" src="main_clip_image094_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="154" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="108" height="68" src="main_clip_image096_0002.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="162" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="116" height="63" src="main_clip_image098_0001.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

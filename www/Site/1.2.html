@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #3300FF;
+}
+body {
+	background-color: #FFFFFF;
+}
+.style3 {font-size: 12px}
+.style6 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #000000;
+	font-style: italic;
+}
+.style9 {
+	color: #3300FF;
+	font-size: 14pt;
+}
+.style16 {color: #3300FF}
+.style17 {font-size: 14pt}
+-->
+</style></head>
+
+<body>
+<p align="center" class="style3"><span class="style6">1.2. Матрицы. Операции над матрицами</span></p>
+<p align="justify" class="style3"><span class="style9">Матрица – это удобный способ организации  данных. Например, ведомость результатов вступительных экзаменов:</span></p>
+<div align="center" class="style9">
+  <div align="justify">
+    <table border="1" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><span class="style16"><br />
+          №    п/п </span></td>
+        <td valign="top"><p class="style16">Фамилия    И О</p></td>
+        <td valign="top"><p class="style16">1.    Биология</p></td>
+        <td valign="top"><p class="style16">2.    Обществознание</p></td>
+        <td valign="top"><p class="style16">3.    Русский язык</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p align="center" class="style16">1</p></td>
+        <td valign="top"><p class="style16">Васильев    В.В.</p></td>
+        <td valign="top"><p align="center" class="style16">45</p></td>
+        <td valign="top"><p align="center" class="style16">58</p></td>
+        <td valign="top"><p align="center" class="style16">49</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p align="center" class="style16">2</p></td>
+        <td valign="top"><p class="style16">Иванов    И.И.</p></td>
+        <td valign="top"><p align="center" class="style16">52</p></td>
+        <td valign="top"><p align="center" class="style16">63</p></td>
+        <td valign="top"><p align="center" class="style16">54</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p align="center" class="style16">3</p></td>
+        <td valign="top"><p class="style16">Петров    П.П.</p></td>
+        <td valign="top"><p align="center" class="style16">41</p></td>
+        <td valign="top"><p align="center" class="style16">61</p></td>
+        <td valign="top"><p align="center" class="style16">46</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p align="center" class="style16">4</p></td>
+        <td valign="top"><p class="style16">Сидоров    С.С.</p></td>
+        <td valign="top"><p align="center" class="style16">64</p></td>
+        <td valign="top"><p align="center" class="style16">82</p></td>
+        <td valign="top"><p align="center" class="style16">57</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p align="justify" class="style9">можно записать в виде таблицы чисел (<em>матрицы</em>) вида:<br />
+    <img width="67" height="67" src="main_clip_image002_0001.gif" />,<br />
+  где номера строк соответствуют порядковым номерам  абитуриентов (по алфавиту), столбцы – порядковым номерам вступительных  экзаменов. Содержательное значение каждого числа матрицы однозначно  определяется его позицией, т.е. указанием номера строки и столбца, на пересечении  которых это число находится. Так, число 61, стоящее в 3-ой строке 2-го столбца  – это число баллов Петрова П.П. (№ п/п 3) по Обществознанию (2-ой экзамен).<br />
+  <strong><em>Матрицей  А </em></strong>размера<strong><em>m ´ n</em></strong> называется прямоугольная таблица чисел, состоящая из <em>m </em>строк и <em>n</em> столбцов.  Числа этой таблицы называются <strong><em>элементами матрицы</em> </strong>и обозначаются <img width="17" height="23" src="main_clip_image004_0002.gif" />:</p>
+<p align="justify" class="style9"><br />
+    <img width="356" height="132" src="main_clip_image006_0002.gif" />.<br />
+Элементы <img width="81" height="20" src="main_clip_image008_0003.gif" />составляют <em>i</em>-ю строку ( <em>i </em>=1, 2, …, <em>m </em>) матрицы, элементы <img width="87" height="23" src="main_clip_image010_0003.gif" /> -  ее  <em>j</em>-й  столбец ( <em>j </em>=1,  2, …, <em>n </em>).<br />
+Например, <img width="104" height="41" src="main_clip_image012_0002.gif" />-  матрица размера <img width="29" height="15" src="main_clip_image014_0001.gif" /> с элементами <img width="39" height="20" src="main_clip_image016_0001.gif" />, <img width="41" height="20" src="main_clip_image018_0001.gif" />, <img width="41" height="20" src="main_clip_image020_0001.gif" />, <img width="43" height="20" src="main_clip_image022_0001.gif" />, <img width="43" height="20" src="main_clip_image024_0005.gif" />, <img width="44" height="20" src="main_clip_image026_0005.gif" />, <img width="43" height="20" src="main_clip_image028_0005.gif" />, <img width="43" height="20" src="main_clip_image030_0006.gif" />.<br />
+Матрица  размером <img width="28" height="16" src="main_clip_image032_0001.gif" />, т.е. состоящая из одной строки, называется <strong><em>n-мерной матрицей-строкой</em></strong>.<br />
+Матрица, размером <img width="31" height="16" src="main_clip_image034_0001.gif" />, т.е. имеющая только один столбец, называется <strong><em>m-мерным матрицей-столбцом</em></strong>.<br />
+<strong><em>Квадратной</em></strong> матрицей <em>n</em>-го порядка называется матрица  размера <img width="31" height="13" src="main_clip_image036_0001.gif" />, т.е. число строк квадратной матрицы равно числу ее столбцов.<br />
+Например, <img width="72" height="63" src="main_clip_image038_0001.gif" /> квадратная матрица  3-го порядка.<br />
+Элементы <img width="87" height="20" src="main_clip_image040_0002.gif" /> квадратной матрицы  образуют <strong><em>ее главную  диагональ</em></strong>, а  элементы <img width="99" height="23" src="main_clip_image042_0002.gif" /> - <strong><em>побочную  диагональ</em></strong>.<br />
+<strong><em>Диагональной</em></strong> называется квадратная матрица, у которой все элементы вне главной диагонали  (т.е. элементы с индексами <img width="35" height="20" src="main_clip_image044_0001.gif" /> равны нулю. <br />
+Например, <img width="72" height="63" src="main_clip_image046_0002.gif" />диагональная матрица 3-го порядка.<br />
+<strong><em>Треугольной </em></strong>называется квадратная матрица, у которой все элементы левее (или  правее) диагональных элементов равны нулю. <br />
+Например, <img width="63" height="63" src="main_clip_image048_0001.gif" /> или <img width="72" height="63" src="main_clip_image050_0002.gif" /> <strong><em>треугольные</em></strong> матрицы.<br />
+<strong><em>Симметричной</em></strong> называется квадратная матрица, элементы которой удовлетворяют условию <img width="76" height="23" src="main_clip_image052_0000.gif" />. Например, <img width="72" height="63" src="main_clip_image054_0000.gif" />симметричная матрица, т.к. <img width="32" height="20" src="main_clip_image056_0002.gif" /><img width="40" height="20" src="main_clip_image058_0001.gif" />, <img width="32" height="20" src="main_clip_image060_0001.gif" /><img width="43" height="20" src="main_clip_image062_0001.gif" /> и <img width="33" height="20" src="main_clip_image064_0001.gif" /><img width="43" height="20" src="main_clip_image066_0001.gif" />.<br />
+<strong><em>Единичной </em></strong>называется квадратная матрица, у которой все элементы главной диагонали  равны 1, а остальные – нулю.<br />
+Например, <em>Е </em>= <img width="72" height="63" src="main_clip_image068_0001.gif" />единичная матрица третьего порядка.<br />
+<strong><em>Нулевой  матрицей</em> </strong>называется матрица, все элементы которой равны нулю. Например, <img width="76" height="41" src="main_clip_image070_0001.gif" />нулевая квадратная матрица 2-го порядка, <img width="95" height="41" src="main_clip_image072_0000.gif" />нулевая матрица порядка <img width="29" height="16" src="main_clip_image074_0000.gif" />.</p>
+<p align="justify" class="style9"><br />
+  Две матрицы <img width="31" height="20" src="main_clip_image076_0000.gif" /> и <img width="31" height="20" src="main_clip_image078_0000.gif" /> - <strong><em>равны</em></strong>,  если равны все их соответствующие элементы, т.е. <img width="77" height="23" src="main_clip_image080_0000.gif" />. <br />
+  <strong><em>Транспонированной </em></strong>к матрице<img width="64" height="23" src="main_clip_image082_0000.gif" /> называется матрица <img width="72" height="25" src="main_clip_image084_0000.gif" />, такая что <img width="85" height="25" src="main_clip_image086_0000.gif" />, т.е. все строки транспонированной матрицы равны  соответствующим столбцам матрицы <em>А</em>.  Замена всех строк матрицы ее столбцами с соответствующими номерами называется <strong><em>транспонированием </em></strong>матрицы.<br />
+  Если<img width="119" height="69" src="main_clip_image088_0001.gif" />, то <img width="232" height="77" src="main_clip_image090_0001.gif" />.<br />
+  Матрица  называется <strong><em>ступенчатой</em></strong>, если <em>крайний  элемент</em> каждой строки находится правее <em>крайнего</em> элемента предыдущей строки.<br />
+  Элемент строки  называется <strong><em>крайним</em></strong>, если он отличен от нуля, а все элементы этой строки  левее его равны нулю. Первый ненулевой элемент первой строки – всегда крайний.<br />
+  Например, в  матрицах <em>А</em> и <em>В</em> подчеркнуты <em>крайние</em> элементы, при этом матрица <em>В</em> является <em>ступенчатой</em>, а матрица <em>А</em> – нет:<br />
+  <img width="85" height="63" src="main_clip_image092_0001.gif" />   <img width="85" height="63" src="main_clip_image094_0000.gif" />.<br />
+  <strong><em>Равносильными  (элементарными) преобразованиями матрицы</em></strong> называются следующие операции:</p>
+<div align="justify" class="style17">
+  <ul class="style16">
+    <li>Перестановка двух строк (столбцов).</li>
+    <li>Умножение строки (столбца) на число, не равное 0.</li>
+    <li>Прибавление к элементам одной строки (столбца)  соответствующих элементов другой строки (столбца).</li>
+  </ul>
+</div>
+<p align="justify" class="style9">Матрица <em>В</em>, полученная из матрицы <em>А</em> путем равносильных преобразований,  называется <strong><em>эквивалентной </em></strong>матрице <em>А</em> и обозначается <em>В</em> ~ <em>А</em> .<br />
+  Например, матрица <img width="96" height="63" src="main_clip_image096_0000.gif" /><img width="85" height="63" src="main_clip_image092_0002.gif" />, т.к. получена из матрицы <em>А</em> путем перестановки 2-ой и 3-ей  строк.<br />
+  <strong><u>Операции  над   матрицами</u></strong><br />
+  <strong><em>Суммой  матриц</em></strong> <img width="63" height="23" src="main_clip_image098.gif" /> и <img width="63" height="23" src="main_clip_image100.gif" /> называется такая  матрица <img width="108" height="23" src="main_clip_image102.gif" />, элементами которой являются числа, определяемые по формуле <img width="239" height="23" src="main_clip_image104.gif" />.<br />
+  <strong><em>Разностью  матриц</em></strong> <img width="64" height="23" src="main_clip_image082_0001.gif" /><img width="12" height="23" src="main_clip_image107_0000.gif" />и <img width="63" height="23" src="main_clip_image109_0000.gif" /> называется матрица <img width="111" height="23" src="main_clip_image111_0000.gif" />, элементами которой являются числа, определяемые по формуле <img width="241" height="23" src="main_clip_image113_0000.gif" />.<br />
+  <strong><em>Произведением  матрицы</em></strong> <img width="64" height="23" src="main_clip_image082_0002.gif" /> <strong><em>на число l </em></strong>называется  матрица, полученная из матрицы <em>А </em>умножением  всех ее элементов на число <em>l</em>:       <img width="144" height="23" src="main_clip_image116.gif" />.<br />
+  <strong><em>Произведением  матриц</em></strong> <img width="64" height="23" src="main_clip_image082_0003.gif" /> <strong><em>на матрицу</em></strong> <img width="60" height="23" src="main_clip_image119.gif" /> называется такая  матрица <img width="96" height="23" src="main_clip_image121.gif" />, элементами которой являются числа, определяемые по формуле             <img width="233" height="48" src="main_clip_image123.gif" />, т.е. элемент <img width="16" height="23" src="main_clip_image125.gif" />матрицы <em>С</em> равен  сумме произведений элементов <em>i</em>-ой  строки матрицы <em>А</em> на соответствующие  элементы <em>j</em>-го столбца матрицы <em>В.</em><br />
+  Произведение  матриц определяется для квадратных матриц одного и то же порядка, а также для неквадратных  матриц, у которых число столбцов матрицы-множимого равно числу строк матрицы-множителя,  т.е. <img width="105" height="20" src="main_clip_image127.gif" />.<br />
+  <em><u>Замечание.</u></em> В общем случае <em>АВ </em>¹<em> ВА</em>. Если <em>АВ=ВА</em>, то  матрицы называются <strong><em>перестановочными (коммутирующими)</em></strong>. </p>
+<p align="justify" class="style9"><strong><u>Свойства операций над матрицами:</u></strong><br />
+    <img width="79" height="15" src="main_clip_image129.gif" />,                                      <img width="99" height="20" src="main_clip_image131.gif" />;<br />
+    <img width="140" height="20" src="main_clip_image133.gif" />,                  <img width="92" height="19" src="main_clip_image135.gif" />;<br />
+    <img width="116" height="20" src="main_clip_image137.gif" />,                          <img width="112" height="20" src="main_clip_image139.gif" />;<br />
+    <img width="120" height="19" src="main_clip_image141.gif" />,                        <img width="96" height="20" src="main_clip_image143.gif" />;<br />
+    <img width="119" height="19" src="main_clip_image145.gif" />,                         <img width="145" height="20" src="main_clip_image147.gif" />;<br />
+    <img width="104" height="16" src="main_clip_image149.gif" />                                              <img width="79" height="16" src="main_clip_image151.gif" /><br />
+    <img width="76" height="15" src="main_clip_image153.gif" />.<br />
+    <strong>ПРИМЕРЫ</strong></p>
+<p align="justify" class="style9"><strong><u>Пример 2.1.</u></strong> Транспонирование матриц:<br />
+    <img width="111" height="65" src="main_clip_image002_0002.gif" /> <img width="101" height="63" src="main_clip_image004_0003.gif" />; <img width="104" height="44" src="main_clip_image006_0003.gif" /> <img width="75" height="63" src="main_clip_image008_0004.gif" /><br />
+    <strong><u>Пример 2.2.</u></strong> Приведение матрицы к ступенчатому виду путем  элементарных преобразований над строками.<br />
+    <em><u>Примечание:</u></em>При приведении матрицы к ступенчатому виду путем  элементарных преобразований желательно (для удобства вычислений), чтобы крайние  элементы были равны 1.<br />
+  1) Крайний  элемент I-ой строки  равен единице. Поэтому ее оставляем без изменений. Для приведения к ступенчатому  виду все первые элементы в строках ниже I-ой строки путем элементарных преобразований необходимо сделать  равными 0. Поэтому, вместо II-ой  строки запишем строку, являющуюся результатом сложения II-ой и I-ой строки, умноженной на (-3).  Аналогично, вместо III-ой  строки можно записать строку, являющуюся результатом сложения III-ой и I-ой строки, умноженной на 5:<br />
+  <img width="119" height="63" src="main_clip_image010_0004.gif" /><img width="83" height="60" src="main_clip_image012_0003.gif" /><img width="11" height="20" src="main_clip_image014_0002.gif" />~ <img width="327" height="63" src="main_clip_image016_0002.gif" /><img width="113" height="63" src="main_clip_image018_0002.gif" /><br />
+  2) Первую строку  оставляем без изменений и выделяем крайний элемент ступеньки во второй строке.  Однако, крайний элемент II (и III)  строки не равны единице, но можно заметить, что, поделив III-ю строку на 3 (или, что одно и то  же, умножив на <img width="13" height="35" src="main_clip_image020_0002.gif" />), получим крайний элемент, равный 1:<br />
+  <img width="168" height="63" src="main_clip_image022_0002.gif" /><img width="123" height="63" src="main_clip_image024_0006.gif" /> <br />
+  3) Чтобы крайний  элемент второй строки сделать, равным 1, переставим местами II-ую и III-ю строки:<br />
+  <img width="168" height="63" src="main_clip_image026_0006.gif" /><img width="112" height="63" src="main_clip_image028_0006.gif" /> <br />
+  4) Первую строку  оставляем без изменений и выделяем крайний элемент ступеньки во второй строке  (теперь он равен 1). Для приведения к ступенчатому виду все первые элементы в  строках ниже II-ой  строки также путем элементарных преобразований необходимо сделать равными нулю.  Поэтому, вместо III-ей  строки можно записать строку, являющуюся результатом сложения III и II-ой строки, умноженной на 2:<br />
+  <img width="201" height="63" src="main_clip_image030_0007.gif" /><img width="236" height="63" src="main_clip_image032_0002.gif" /><img width="101" height="63" src="main_clip_image034_0002.gif" />.</p>
+<p align="justify" class="style9"><br />
+  Так как все  крайние элементы полученной в результате элементарных преобразований матрицы каждой  строки находится правее крайнего элемента предыдущей строки, то матрица <img width="101" height="63" src="main_clip_image034_0003.gif" />является ступенчатой.<br />
+  <strong><u>Пример 2.3.</u></strong> Вычисление суммы двух матриц:<br />
+  <img width="80" height="63" src="main_clip_image037_0000.gif" /><img width="91" height="63" src="main_clip_image039_0000.gif" /><img width="168" height="63" src="main_clip_image041_0000.gif" /><img width="72" height="63" src="main_clip_image043_0000.gif" />.<br />
+  <strong><u>Пример 2.4.</u></strong> Вычисление разности двух матриц:<br />
+  <img width="80" height="63" src="main_clip_image045_0000.gif" /><img width="91" height="63" src="main_clip_image047_0000.gif" /><img width="169" height="63" src="main_clip_image049_0000.gif" /><img width="72" height="63" src="main_clip_image051_0000.gif" />.<br />
+  <strong><u>Пример 2.5.</u></strong> Произведение матрицы на число:<br />
+  <img width="93" height="63" src="main_clip_image053_0000.gif" /><img width="128" height="63" src="main_clip_image055_0000.gif" /><img width="83" height="63" src="main_clip_image057_0000.gif" />.<br />
+  <strong><u>Пример 2.6.</u></strong> Произведение двух  матриц разной размерности.<br />
+  <img width="84" height="41" src="main_clip_image059.gif" />; <img width="72" height="63" src="main_clip_image061.gif" />. Найти <img width="53" height="16" src="main_clip_image063.gif" />.<br />
+  При вычислении  произведения матриц разной размерности предварительно необходимо проверить  выполнение условия, что число столбцов матрицы-множимого равно числу строк матрицы-множителя  и определить размерность матрицы результата: <img width="100" height="20" src="main_clip_image065.gif" />.<br />
+  <img width="157" height="64" src="main_clip_image067.gif" /><img width="199" height="41" src="main_clip_image069.gif" /><img width="84" height="43" src="main_clip_image071.gif" />.<br />
+  <strong><u>Пример  2.7.</u></strong> Произведение двух квадратных матриц одного порядка:<br />
+  <img width="91" height="64" src="main_clip_image073.gif" /><img width="107" height="64" src="main_clip_image075.gif" /><img width="376" height="63" src="main_clip_image077.gif" /><img width="99" height="64" src="main_clip_image079.gif" />.<br />
+  <strong><u>Пример 2.8.</u></strong> Вычислить значение  матричного многочлена: <img width="103" height="16" src="main_clip_image081.gif" />, где <img width="85" height="63" src="main_clip_image083.gif" />, <img width="85" height="63" src="main_clip_image085.gif" />, <img width="85" height="63" src="main_clip_image087.gif" />, <em>Е</em>-  единичная матрица 3-го порядка.<br />
+  1) <img width="99" height="63" src="main_clip_image089.gif" /><img width="73" height="63" src="main_clip_image091.gif" /><img width="293" height="63" src="main_clip_image093.gif" /><img width="91" height="63" src="main_clip_image095.gif" /><br />
+  2) <img width="293" height="63" src="main_clip_image097.gif" />.<br />
+  3) <img width="175" height="63" src="main_clip_image099.gif" /><br />
+  4) <img width="103" height="16" src="main_clip_image081_0000.gif" />=<img width="89" height="63" src="main_clip_image101_0000.gif" /><img width="68" height="63" src="main_clip_image103_0000.gif" />+<img width="73" height="63" src="main_clip_image105_0000.gif" /><img width="209" height="63" src="main_clip_image107_0001.gif" /><img width="79" height="63" src="main_clip_image109_0001.gif" />.<br />
+  <u>Ответ:</u> <img width="104" height="63" src="main_clip_image111_0001.gif" /></p>
+<p align="justify" class="style9"><strong>Вопросы и упражнения для самоконтроля</strong></p>
+<div align="justify" class="style17">
+  <ul class="style16">
+    <li>Перечислить  основные виды матриц.</li>
+    <li>Перечислить  основные операции над матрицами и назвать налагаемые ограничения на соотношение  размеров матриц при каждой операции.</li>
+    <li>Провести  сравнение операций над матрицами с операциями над действительными числами. </li>
+    <li>Какую  роль в операциях играют нулевая и единичная матрицы?</li>
+    <li>Какую  матрицу <img width="15" height="15" src="main_clip_image002_0003.gif" /> нужно прибавить к  матрице <img width="84" height="63" src="main_clip_image004_0004.gif" />, чтобы получить единичную матрицу?</li>
+    <li>Транспонировать  матрицу <img width="85" height="63" src="main_clip_image006_0004.gif" /> и охарактеризовать ее.</li>
+    <li>Вычислить  значение матричного многочлена: <img width="75" height="16" src="main_clip_image008_0005.gif" />, где <img width="85" height="63" src="main_clip_image010_0005.gif" />, <em>Е –</em> единичная и <em>О </em>- нулевая матрицы 3-го порядка.</li>
+  </ul>
+</div>
+<p align="justify" class="style9"><strong>УПРАЖНЕНИЯ</strong></p>
+<div align="justify" class="style17">
+  <ul class="style16">
+    <ul>
+      <li><img width="101" height="41" src="main_clip_image012_0004.gif" />.  Найти <img width="52" height="20" src="main_clip_image014_0003.gif" />.</li>
+      <li>Найти <img width="23" height="15" src="main_clip_image016_0003.gif" />и <img width="21" height="15" src="main_clip_image018_0003.gif" /> для матриц <img width="95" height="63" src="main_clip_image020_0003.gif" /> и <img width="52" height="63" src="main_clip_image022_0003.gif" />.</li>
+      <li>Найти значение матричного многочлена <img width="93" height="20" src="main_clip_image024_0007.gif" />, если <img width="25" height="15" src="main_clip_image026_0007.gif" />:</li>
+    </ul>
+  </ul>
+</div>
+<p align="justify" class="style9">а) <img width="63" height="63" src="main_clip_image028_0007.gif" />;                       б) <img width="63" height="63" src="main_clip_image030_0008.gif" />;                    в) <img width="81" height="63" src="main_clip_image032_0003.gif" />;<br />
+  г) <img width="91" height="63" src="main_clip_image034_0004.gif" />;              д) <img width="60" height="63" src="main_clip_image036_0002.gif" />;                     е) <img width="63" height="63" src="main_clip_image038_0002.gif" />.     </p>
+<div align="justify" class="style17">
+  <ul class="style16">
+    <ul>
+      <li><img width="85" height="63" src="main_clip_image040_0003.gif" />, <img width="85" height="63" src="main_clip_image042_0003.gif" />.  Найти <img width="115" height="16" src="main_clip_image044_0002.gif" />.</li>
+      <li><img width="85" height="63" src="main_clip_image046_0003.gif" />, <img width="84" height="63" src="main_clip_image048_0002.gif" />.  Найти <img width="96" height="16" src="main_clip_image050_0003.gif" />.</li>
+      <li><img width="85" height="63" src="main_clip_image052_0001.gif" />, <img width="85" height="63" src="main_clip_image054_0001.gif" />.  Найти <img width="107" height="16" src="main_clip_image056_0003.gif" />.</li>
+      <li><img width="85" height="63" src="main_clip_image058_0002.gif" />, <img width="85" height="63" src="main_clip_image060_0002.gif" />.  Найти <img width="100" height="16" src="main_clip_image062_0002.gif" />.</li>
+      <li><img width="85" height="63" src="main_clip_image064_0002.gif" />, <img width="85" height="63" src="main_clip_image066_0002.gif" />.  Найти <img width="108" height="16" src="main_clip_image068_0002.gif" />.</li>
+    </ul>
+  </ul>
+</div>
+<p align="justify" class="style9">&nbsp;</p>
+</body>
+</html>

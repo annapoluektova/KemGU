@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #3300FF;
+}
+body {
+	background-color: #FFFFFF;
+}
+.style3 {font-size: 12px}
+.style6 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #000000;
+	font-style: italic;
+}
+.style9 {
+	font-size: 14pt;
+	color: #3300FF;
+}
+.style10 {color: #3300FF}
+-->
+</style></head>
+
+<body>
+<p align="center" class="style3"><span class="style6">1.5. Системы линейных уравнений</span></p>
+<p align="justify" class="style3"><span class="style9">Пусть задана  система <em>m</em> линейных уравнений с <em>n</em> неизвестными:<br />
+  <img width="197" height="91" src="main_clip_image088_0003.gif" /><br />
+  где числа <img width="17" height="23" src="main_clip_image090_0005.gif" /> (<img width="79" height="19" src="main_clip_image092_0005.gif" /> <img width="75" height="19" src="main_clip_image094_0003.gif" />) – <em>коэффициенты  системы</em>; числа <img width="85" height="23" src="main_clip_image096_0003.gif" /><em>свободные члены</em>;  переменные <img width="84" height="20" src="main_clip_image098_0002.gif" /><em>неизвестные</em>.<br />
+  <strong><em>Решением</em></strong> системы линейных уравнений называется множество значений неизвестных <img width="71" height="20" src="main_clip_image100_0001.gif" />, удовлетворяющих одновременно каждому уравнению этой  системы.<br />
+  <strong><em>Решить  систему уравнений </em></strong>означает найти все ее решения или показать, что  решений нет.<br />
+  Система  уравнений называется <strong><em>совместной</em></strong>, если она имеет хотя бы  одно решение, и <strong><em>несовместной</em></strong>, если она не имеет ни одного решения.<br />
+  Совместная  система называется <strong><em>определенной</em></strong>, если она имеет только одно решение, и <strong><em>неопределенной</em></strong>,  если она имеет более одного решения.<br />
+  Если  все свободные члены равны нулю (<img width="117" height="23" src="main_clip_image102_0001.gif" />), то система линейных уравнений называется <strong><em>однородной.</em></strong><br />
+  Систему  линейных уравнений можно записать в матричной форме: <img width="51" height="17" src="main_clip_image104_0000.gif" /><br />
+  где <img width="159" height="84" src="main_clip_image106.gif" /><strong><em>матрица системы</em></strong>, <img width="65" height="84" src="main_clip_image108.gif" /><strong><em>столбец</em></strong> (или <strong><em>вектор-столбец</em></strong>) <strong><em>неизвестных</em></strong>, <img width="64" height="84" src="main_clip_image110.gif" /><strong><em>столбец</em></strong> <strong><em>свободных членов.</em></strong><br />
+  Матрица <img width="191" height="87" src="main_clip_image112.gif" /> называется расширенной  матрицей системы.<br />
+  Система линейных  уравнений совместна тогда и только тогда, когда ранг матрицы системы <em>А</em> равен рангу расширенной матрицы  системы <img width="32" height="20" src="main_clip_image114.gif" /> (теорема  Кронекера-Капелли): <img width="84" height="20" src="main_clip_image116_0000.gif" />.<br />
+  Исследование  системы линейных уравнений заключается в определении ее типа: совместна –  несовместна, определенна – неопределенна.<br />
+  При этом возможны  три варианта:</span></p>
+<div align="justify" class="style9">
+  <ul>
+    <ul>
+      <ul>
+        <li>если <img width="105" height="20" src="main_clip_image118.gif" />, где <em>n</em> – число неизвестных, то система совместна  и определенна;</li>
+        <li>если <img width="105" height="20" src="main_clip_image120.gif" />, то система совместна и неопределенна;</li>
+        <li>если <img width="84" height="20" src="main_clip_image122.gif" />, то система несовместна.</li>
+      </ul>
+    </ul>
+  </ul>
+</div>
+<p align="justify" class="style9"><em>Однородная</em> система линейных уравнений  всегда совместна, так как всегда существует тривиальное решение <img width="119" height="23" src="main_clip_image124.gif" />. Однородная система неопределенна, если <img width="51" height="20" src="main_clip_image126.gif" />.</p>
+<p align="justify" class="style9"><strong><u>Метод Гаусса (метод последовательного  исключения неизвестных) </u></strong>является одним из основных методов исследования  и решения систем линейных уравнений.</p>
+<p align="justify" class="style9">Для наглядности  рассмотрим алгоритм этого метода на частном примере системы из 3-х уравнений с  3 неизвестными.</p>
+<div align="justify" class="style9">
+  <ul>
+    <li>Выписать  из заданной системы линейных уравнений <img width="175" height="66" src="main_clip_image002_0007.gif" /> расширенную матрицу: <img width="157" height="65" src="main_clip_image004_0007.gif" />.</li>
+    <li>Привести  расширенную матрицу <img width="31" height="20" src="main_clip_image006_0007.gif" /> системы к ступенчатому  виду <img width="37" height="20" src="main_clip_image008_0009.gif" />. При этом возможны три вида расширенных ступенчатых матриц,  соответствующих трем типам систем линейных уравнений.</li>
+  </ul>
+</div>
+<p align="justify" class="style9">а) Система совместна и определенна: <img width="216" height="65" src="main_clip_image010_0009.gif" /> <img width="185" height="20" src="main_clip_image012_0007.gif" />.<br />
+  б) Система совместна и  неопределенна: <img width="220" height="65" src="main_clip_image014_0006.gif" /><img width="207" height="20" src="main_clip_image016_0006.gif" />.<br />
+  в) Система несовместна: <img width="220" height="65" src="main_clip_image018_0006.gif" /> <img width="185" height="20" src="main_clip_image020_0006.gif" />. </p>
+<div align="justify" class="style9">
+  <ul>
+    <li>Найти  решение для совместной системы.</li>
+  </ul>
+</div>
+<p align="justify" class="style9">а) Для определенной системы по  расширенной ступенчатой матрице восстановить уравнения в виде: <img width="180" height="66" src="main_clip_image022_0006.gif" /><br />
+  и разрешаем полученные уравнения,  начиная с последнего.<br />
+  Из III-го уравнения получим <img width="51" height="39" src="main_clip_image024_0010.gif" />; из II-го  уравнения – <img width="88" height="39" src="main_clip_image026_0010.gif" />; из I-го  уравнения – <img width="128" height="41" src="main_clip_image028_0010.gif" />.<br />
+  б) Для неопределенной системы  аналогично по расширенной ступенчатой матрице восстановить уравнения в виде:<br />
+  <img width="177" height="66" src="main_clip_image030_0011.gif" />.<br />
+  Затем в  уравнении, соответствующем последней ненулевой строке, выбрать <img width="40" height="20" src="main_clip_image032_0006.gif" /><a href="#_ftn1" name="_ftnref1" title="" id="_ftnref1"><strong>*</strong></a> неизвестных в качестве <strong><em>свободных переменных, </em></strong>т.е. таких,  которые могут принимать любое значение из множества действительных чисел. А все  остальные неизвестные выразить в виде числовой функции, зависящей от свободных  переменных.<br />
+  В нашем частном  случае <img width="96" height="20" src="main_clip_image034_0007.gif" />. Во 2-ом уравнении (соответствует последней ненулевой  строке) одну из неизвестных <img width="16" height="20" src="main_clip_image036_0005.gif" /> объявляем свободной. <br />
+  Пусть, например, <img width="39" height="20" src="main_clip_image038_0005.gif" /> <img width="29" height="16" src="main_clip_image040_0006.gif" /><strong>R</strong>. <br />
+  Тогда         из II-го уравнения – <img width="80" height="39" src="main_clip_image042_0006.gif" />;            из I-го уравнения – <img width="120" height="41" src="main_clip_image044_0005.gif" />.<br />
+  Решение  неопределенной системы линейных уравнений, выраженное в виде функций от <img width="40" height="20" src="main_clip_image032_0007.gif" /> свободных переменных,  называется <strong><em>общим решением системы</em></strong>.</p>
+<p align="justify" class="style9"><strong><u>Модифицированный метод Гаусса (метод  Жордана – Гаусса)</u></strong><br />
+  Алгоритм исследования и решения систем линейных  уравнений с помощью метода Жордана – Гаусса состоит в следующем.</p>
+<div align="justify" class="style9">
+  <ul>
+    <li>Выписать  расширенную матрицу системы: <img width="180" height="80" src="main_clip_image046_0006.gif" />.</li>
+    <li>Выбрать отличный  от нуля элемент <img width="20" height="20" src="main_clip_image048_0005.gif" />. Этот элемент называется <strong><em>разрешающим </em></strong>(или <strong><em>ведущим</em></strong>)<strong><em> элементом</em></strong>, <em>p</em>-й столбец – <em>разрешающим </em>(или <em>ведущим</em>) <em>столбцом</em>, а <em>q</em>-я строка – <em>разрешающей </em>(или <em>ведущей</em>) <em>строкой</em>.</li>
+    <li>Переписать (<em>q</em>-ю) строку в  новую систему уравнений (если элемент <img width="35" height="20" src="main_clip_image050_0006.gif" />, то предварительно умножим эту строку на <img width="28" height="20" src="main_clip_image052_0004.gif" />, в результате чего получим <img width="35" height="20" src="main_clip_image054_0004.gif" />).</li>
+    <li>Вычислить все остальные  элементы системы и свободные члены по формулам (правило прямоугольника):</li>
+  </ul>
+</div>
+<p align="justify" class="style9"><img width="401" height="56" src="main_clip_image056_0006.gif" /><strong><em>.</em></strong></p>
+<p align="justify" class="style9">В  результате 3 – 4 шагов алгоритма в ведущем столбце получаем <img width="33" height="20" src="main_clip_image058_0005.gif" />(при <img width="24" height="15" src="main_clip_image060_0005.gif" />) и <img width="35" height="20" src="main_clip_image054_0005.gif" />: <img width="177" height="80" src="main_clip_image063_0000.gif" />.<br />
+  Таким образом, неизвестное <img width="16" height="20" src="main_clip_image065_0000.gif" /> является разрешенным,  т.к. коэффициенты при <img width="16" height="20" src="main_clip_image065_0001.gif" /> во всех уравнениях  системы, кроме <em>q</em>-го, равны нулю.</p>
+<div align="justify" class="style9">
+  <ul>
+    <li>В расширенной  матрице <img width="32" height="16" src="main_clip_image068_0005.gif" /> выбрать следующий ведущий (разрешающий)  элемент <img width="91" height="19" src="main_clip_image070_0005.gif" /> (т.е. элемент,  расположенный обязательно в другой строке и другом еще неразрешенном столбце).  Повторить 3 – 4 шаги алгоритма для элемента <img width="19" height="19" src="main_clip_image072_0004.gif" /> вместо <img width="20" height="20" src="main_clip_image048_0006.gif" />.</li>
+  </ul>
+</div>
+<p align="justify" class="style9">Шаг 5 повторять пока не будут разрешены все <em>возможные</em> неизвестные <img width="60" height="19" src="main_clip_image074_0004.gif" /> (случай совместной системы) или не будет  получено противоречивое уравнение вида <img width="31" height="19" src="main_clip_image076_0004.gif" />, которое свидетельствует о несовместности системы.</p>
+<p align="justify" class="style9"><strong><u>Метод Крамера  (решение систем линейных уравнений с помощью определителей)</u></strong><br />
+  Если  определитель системы <em>n</em> линейных  уравнений с <em>n</em> неизвестными <img width="76" height="17" src="main_clip_image078_0003.gif" />, то система уравнений имеет единственное решение, которое  находится по <strong><em>формулам Крамера</em></strong><br />
+  <img width="135" height="35" src="main_clip_image080_0003.gif" />, где<img width="151" height="84" src="main_clip_image082_0009.gif" />определитель системы;<br />
+  <img width="28" height="20" src="main_clip_image084_0004.gif" />определитель, получаемый из определителя системы <img width="13" height="15" src="main_clip_image086_0003.gif" /> заменой <em>i</em>-го столбца столбцом свободных членов:<br />
+  <img width="139" height="84" src="main_clip_image088_0004.gif" />; <img width="141" height="84" src="main_clip_image090_0006.gif" />; ... ; <img width="143" height="84" src="main_clip_image092_0006.gif" /><br />
+  Если определитель <em>однородной</em> системы <em>n</em> линейных уравнений с <em>n</em> неизвестными <img width="76" height="17" src="main_clip_image078_0004.gif" />, то единственное решение определяется сразу: <img width="119" height="23" src="main_clip_image095_0000.gif" />. <br />
+  <strong>ПРИМЕРЫ</strong><br />
+  <strong><u>Пример 5.1.</u></strong> Решить систему  линейных уравнений: <img width="187" height="84" src="main_clip_image097_0000.gif" /><br />
+  <u>Решение</u> системы методом Гаусса.<br />
+  1) Приведение  расширенной матрицы системы к ступенчатому виду:<br />
+  <img width="132" height="84" src="main_clip_image099_0000.gif" /><img width="95" height="79" src="main_clip_image101_0001.gif" /><img width="140" height="84" src="main_clip_image103_0001.gif" /><img width="67" height="79" src="main_clip_image105_0001.gif" /><img width="225" height="84" src="main_clip_image107_0002.gif" /><br />
+  ~ <img width="165" height="84" src="main_clip_image109_0002.gif" /><img width="203" height="84" src="main_clip_image111_0002.gif" /><img width="125" height="84" src="main_clip_image113_0001.gif" />.<br />
+  <img width="144" height="20" src="main_clip_image115_0000.gif" />Система совместна и определенна.<br />
+  2) Разрешение неизвестных из  восстановленной (ступенчатой) системы уравнений: <img width="189" height="84" src="main_clip_image117.gif" /><br />
+  <img width="72" height="35" src="main_clip_image119_0000.gif" />; <img width="125" height="35" src="main_clip_image121_0000.gif" />; <img width="171" height="35" src="main_clip_image123_0000.gif" />; <img width="255" height="35" src="main_clip_image125_0000.gif" />.<br />
+  <u>Ответ:</u> <img width="61" height="20" src="main_clip_image127_0000.gif" /><br />
+  <u>Проверка:</u> <img width="220" height="81" src="main_clip_image129_0000.gif" /><br />
+  <u>Решение </u>системы  методом Жордана – Гаусса.<br />
+  <img width="109" height="69" src="main_clip_image131_0000.gif" /><img width="77" height="64" src="main_clip_image133_0000.gif" /><img width="187" height="69" src="main_clip_image135_0000.gif" /><img width="143" height="69" src="main_clip_image137_0000.gif" /><br />
+  ~ <img width="179" height="69" src="main_clip_image139_0000.gif" /><img width="149" height="69" src="main_clip_image141_0000.gif" /><img width="159" height="69" src="main_clip_image143_0000.gif" /><img width="92" height="69" src="main_clip_image145_0000.gif" />.<br />
+  (<img width="115" height="16" src="main_clip_image147_0000.gif" />Система совместна и определенна).<br />
+  <img width="103" height="69" src="main_clip_image149_0000.gif" />             <u>Ответ:</u> <img width="51" height="16" src="main_clip_image151_0000.gif" />                                  <u>Проверка:</u> <img width="176" height="67" src="main_clip_image153_0000.gif" />  <br />
+  <strong><u>Пример 5.2.</u></strong> Решить систему  линейных уравнений: <img width="193" height="84" src="main_clip_image155.gif" /><br />
+  <u>Решение</u> системы методом Гаусса.<br />
+  1) Приведение  расширенной матрицы системы к ступенчатому виду:<br />
+  <img width="139" height="84" src="main_clip_image157.gif" /><img width="95" height="79" src="main_clip_image159.gif" /><img width="132" height="84" src="main_clip_image161.gif" /><img width="52" height="79" src="main_clip_image163.gif" /><img width="223" height="84" src="main_clip_image165.gif" /> <br />
+  ~<img width="200" height="84" src="main_clip_image167.gif" /><img width="219" height="84" src="main_clip_image169.gif" /><img width="128" height="84" src="main_clip_image171.gif" />.</p>
+<div class="style9">
+  <div id="ftn1">
+    <div align="justify"><br />
+      <a href="#_ftnref1" name="_ftn1" title="" id="_ftn1"><strong>*</strong></a> Здесь <img width="49" height="16" src="main_clip_image173.gif" />ранг матрицы системы. </div>
+  </div>
+</div>
+<p align="justify" class="style9"><img width="161" height="20" src="main_clip_image002_0008.gif" />Система совместна и неопределенна.<br />
+  2) Восстановление системы уравнений  и разрешение неизвестных: <img width="177" height="81" src="main_clip_image004_0008.gif" /><br />
+  Так как <img width="96" height="20" src="main_clip_image006_0008.gif" />, то из III-го  уравнения (соответствует последней ненулевой строке) выберем одну переменную в  качестве <em>свободной. </em><br />
+  Пусть<strong><em> <img width="36" height="20" src="main_clip_image008_0010.gif" /> </em></strong><img width="29" height="16" src="main_clip_image010_0010.gif" /><strong>R</strong>. <br />
+  Тогда из III-го уравнения – <img width="148" height="20" src="main_clip_image012_0008.gif" />; <br />
+  из  II-го уравнения – <img width="179" height="23" src="main_clip_image014_0007.gif" />;<br />
+  из  I-го уравнения – <img width="291" height="23" src="main_clip_image016_0007.gif" />.<br />
+  <u>Ответ:</u> <img width="115" height="20" src="main_clip_image018_0007.gif" /> общее решение.<br />
+  <u>Проверка:</u> <img width="297" height="81" src="main_clip_image020_0007.gif" /><br />
+  <u>Решение</u> системы  методом Жордана – Гаусса.<br />
+  <img width="115" height="69" src="main_clip_image022_0007.gif" /><img width="77" height="64" src="main_clip_image024_0011.gif" /><img width="175" height="69" src="main_clip_image026_0011.gif" />~ <img width="157" height="69" src="main_clip_image028_0011.gif" /> <br />
+  ~<img width="171" height="69" src="main_clip_image030_0012.gif" /><img width="92" height="69" src="main_clip_image032_0008.gif" />.<br />
+  После эквивалентных преобразований разрешенными  оказались все неизвестные, кроме <img width="16" height="17" src="main_clip_image034_0008.gif" />(т.к. именно ему соответствует IV столбец матрицы системы), а разрешающий (ведущий)  элемент в данном случае можно выбирать только в 4-ой строке, что невозможно  из-за ее обнуления. Таким образом, <img width="132" height="16" src="main_clip_image036_0006.gif" />Система совместна и неопределенна.</p>
+<p align="justify" class="style9">Восстановим систему уравнений из последней матрицы: <img width="119" height="67" src="main_clip_image002_0009.gif" /><br />
+  Пусть <img width="16" height="17" src="main_clip_image004_0009.gif" />, как неразрешенное неизвестное, будет свободной переменной: <strong><em><img width="31" height="17" src="main_clip_image006_0009.gif" /> </em></strong><img width="24" height="15" src="main_clip_image008_0011.gif" /><strong>R</strong>. <br />
+  Тогда  из I-го уравнения – <img width="127" height="20" src="main_clip_image010_0011.gif" />;<br />
+  из II-го уравнения – <img width="125" height="20" src="main_clip_image012_0009.gif" />;<br />
+  из III-го уравнения  – <img width="127" height="17" src="main_clip_image014_0008.gif" />.<br />
+  <u>Ответ:</u> <img width="92" height="16" src="main_clip_image016_0008.gif" /> общее решение.<br />
+  <u>Проверка:</u> <img width="239" height="67" src="main_clip_image018_0008.gif" /> <br />
+  <strong><u>Пример 5.3.</u></strong> Решить систему  линейных уравнений: <img width="183" height="84" src="main_clip_image020_0008.gif" /><br />
+  <u>Решение</u> системы методом Гаусса.<br />
+  1) Приведение расширенной матрицы системы к ступенчатому виду:<br />
+  <img width="105" height="84" src="main_clip_image022_0008.gif" /><img width="59" height="79" src="main_clip_image024_0012.gif" /><img width="197" height="84" src="main_clip_image026_0012.gif" /><img width="191" height="84" src="main_clip_image028_0012.gif" /> <br />
+  ~<img width="227" height="84" src="main_clip_image030_0013.gif" /><img width="204" height="84" src="main_clip_image032_0009.gif" /><img width="221" height="84" src="main_clip_image034_0009.gif" /><br />
+  <img width="125" height="84" src="main_clip_image036_0007.gif" /><img width="141" height="79" src="main_clip_image038_0006.gif" /><br />
+  <img width="140" height="20" src="main_clip_image040_0007.gif" />Система несовместна и множество решений пусто.<br />
+  <u>Ответ:</u> Æ.<br />
+  <u>Решение</u> системы методом Жордана – Гаусса. <br />
+  <img width="87" height="69" src="main_clip_image042_0007.gif" /><img width="77" height="64" src="main_clip_image044_0006.gif" /><img width="95" height="69" src="main_clip_image046_0007.gif" /><img width="77" height="64" src="main_clip_image048_0007.gif" /><img width="104" height="69" src="main_clip_image050_0007.gif" /><img width="59" height="64" src="main_clip_image052_0005.gif" /> <br />
+  ~<img width="104" height="69" src="main_clip_image054_0006.gif" /><img width="80" height="64" src="main_clip_image056_0007.gif" /><img width="97" height="69" src="main_clip_image058_0006.gif" /><img width="127" height="64" src="main_clip_image060_0006.gif" /><br />
+  Система несовместна и множество решений пусто.                            <u>Ответ:</u> Æ.</p>
+<p align="justify" class="style9"><strong><u>Пример 5.4.</u></strong> Решить систему  линейных уравнений методом Крамера: <img width="136" height="63" src="main_clip_image002_0010.gif" /><br />
+    <u>Решение:</u><br />
+    <img width="161" height="63" src="main_clip_image004_0010.gif" />Система совместна и определенна. <br />
+  Тогда: <img width="132" height="63" src="main_clip_image006_0010.gif" /> <img width="125" height="63" src="main_clip_image008_0012.gif" /> <img width="123" height="63" src="main_clip_image010_0012.gif" /> и <br />
+  <img width="99" height="35" src="main_clip_image012_0010.gif" /> <img width="100" height="35" src="main_clip_image014_0009.gif" /> <img width="99" height="35" src="main_clip_image016_0009.gif" /><br />
+  <u>Ответ:</u> <img width="39" height="20" src="main_clip_image018_0009.gif" />.<br />
+  <u>Проверка:</u> <img width="157" height="63" src="main_clip_image020_0009.gif" /><br />
+  <strong><u>Пример 5.5.</u></strong> Решить систему  линейных уравнений методом Крамера: <img width="135" height="63" src="main_clip_image022_0009.gif" /> <br />
+  <u>Решение:</u> <img width="169" height="63" src="main_clip_image024_0013.gif" /> <br />
+  Система совместна и определенна и, т.к. система уравнений является однородной,  то единственное решение: <img width="92" height="23" src="main_clip_image026_0013.gif" />. <br />
+  <u>Ответ:</u> <img width="47" height="20" src="main_clip_image028_0013.gif" />.<br />
+  <strong>Вопросы и упражнения для самоконтроля</strong></p>
+<div align="justify" class="style9">
+  <ol>
+    <li>Что  называется линейным уравнением? Приведите примеры линейных и нелинейных  уравнений.</li>
+    <li>Что  называется решением системы линейных уравнений?</li>
+    <li>Что  означает задание: решить систему уравнений?</li>
+    <li>Какие  различают виды систем линейных уравнений и как? Сколько решений у них может  быть?</li>
+    <li>Есть ли преимущества метода Гаусса перед  методом Крамера и какие? </li>
+    <li>Есть  ли преимущества метода Крамера перед методом Гаусса и какие?</li>
+    <li>Есть ли  преимущества метода Жордана перед методом Гаусса и какие?</li>
+  </ol>
+</div>
+<p align="justify" class="style9"><strong>УПРАЖНЕНИЯ</strong><br />
+  Решить систему уравнений методом  Гаусса (или Жордана-Гаусса).</p>
+<div align="justify" class="style9">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td width="34%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="136" height="63" src="main_clip_image030_0014.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="148" height="63" src="main_clip_image032_0010.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="148" height="63" src="main_clip_image034_0010.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="189" height="84" src="main_clip_image036_0008.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="189" height="84" src="main_clip_image038_0007.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="189" height="84" src="main_clip_image040_0008.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="197" height="84" src="main_clip_image042_0008.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="184" height="84" src="main_clip_image044_0007.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="172" height="84" src="main_clip_image046_0008.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" valign="top"><ol class="style10">
+        <ol>
+          <li><img width="189" height="84" src="main_clip_image048_0008.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="32%" valign="top"><p>&nbsp;</p></td>
+      <td width="32%" valign="top"><p>&nbsp;</p></td>
+    </tr>
+  </table>
+</div>
+<p align="justify" class="style9">Решить систему уравнений  методом Крамера.</p>
+<div align="justify">
+  <table border="0" cellspacing="0" cellpadding="0" width="695">
+    <tr>
+      <td width="243" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="136" height="63" src="main_clip_image002_0011.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="239" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="168" height="63" src="main_clip_image004_0011.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="212" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="137" height="63" src="main_clip_image006_0011.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="243" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="147" height="63" src="main_clip_image008_0013.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="239" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="153" height="63" src="main_clip_image010_0013.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="212" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="144" height="63" src="main_clip_image012_0011.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="243" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="137" height="63" src="main_clip_image014_0010.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="239" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="137" height="63" src="main_clip_image006_0012.gif" /></li>
+        </ol>
+      </ol></td>
+      <td width="212" valign="top" class="style9"><ol>
+        <ol>
+          <li><img width="148" height="63" src="main_clip_image017_0000.gif" /></li>
+        </ol>
+      </ol></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

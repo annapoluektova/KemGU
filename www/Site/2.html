@@ -1,0 +1,1794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #3300FF;
+}
+body {
+	background-color: #FFFFFF;
+}
+.style10 {
+	color: #660000;
+	font-size: 24pt;
+	font-weight: bold;
+}
+.style3 {font-size: 12px}
+.style12 {color: #CC0099}
+.style15 {font-size: 14px}
+.style16 {font-size: 14px; color: #3300FF; }
+.style17 {color: #3300FF}
+.style25 {font-style: italic}
+.style36 {font-size: 18pt; font-weight: bold; color: #000000; font-style: italic; }
+.style37 {font-size: 14pt}
+.style38 {font-size: 14pt; color: #3300FF; }
+.style39 {color: #3300FF; font-style: italic;}
+.style40 {color: #CC0099; font-size: 14pt; }
+-->
+</style></head>
+
+<body>
+<p align="center" class="style3"><span class="style10">ЧАСТЬ  II. ЭЛЕМЕНТЫ МАТЕМАТИЧЕСКОГО АНАЛИЗА</span> </p>
+<p align="center" class="style3"><img src="i.jpg" width="158" height="135" /></p>
+<p align="center" class="style3"><span class="style36">2.1. Пределы</span></p>
+<p align="justify" class="style3"><span class="style12"><span class="style15"><span class="style17"><span class="style37"><em>Бесконечной <strong>числовой последовательностью </strong></em>называется функция, определенная на множестве натуральных  чисел, т.е. последовательность, в которой каждому натуральному числу <img width="52" height="16" src="main_clip_image002_0013.gif" />1, 2, 3, ¼ по некоторому закону поставлено в соответствие число <img width="16" height="19" src="main_clip_image004_0013.gif" />. Числовую последовательность принято обозначать <img width="24" height="19" src="main_clip_image006_0014.gif" />, где <img width="31" height="15" src="main_clip_image008_0015.gif" />.<br />
+  Число <em>а </em>называется <strong><em>пределом последовательности </em></strong><img width="28" height="20" src="main_clip_image010_0015.gif" /> (или <strong><em>пределом  переменной </em></strong><img width="16" height="20" src="main_clip_image012_0013.gif" />), если для всякого сколь угодно малого положительного числа<em> <img width="12" height="13" src="main_clip_image014_0012.gif" /> </em>найдется такое  сколь угодно большое положительное число <img width="16" height="20" src="main_clip_image016_0011.gif" />, что числа <img width="16" height="20" src="main_clip_image012_0014.gif" /> при <img width="37" height="20" src="main_clip_image019_0001.gif" /> будут находиться в <em><img width="12" height="13" src="main_clip_image014_0013.gif" />-окрестности </em>числа<em> а</em>: <img width="207" height="24" src="main_clip_image022_0011.gif" />.<br />
+  В этом случае пишут <img width="64" height="28" src="main_clip_image024_0015.gif" /> или <img width="45" height="20" src="main_clip_image026_0014.gif" />.<br />
+  <u>Определение  Коши:</u> Число <em>А </em>называется <strong><em>пределом  функции</em></strong> <img width="31" height="20" src="main_clip_image028_0014.gif" /> при <img width="39" height="13" src="main_clip_image030_0015.gif" />, если для любого сколь угодно малого <img width="32" height="16" src="main_clip_image032_0011.gif" /> найдется такое <img width="33" height="16" src="main_clip_image034_0011.gif" />, что при всех <img width="33" height="15" src="main_clip_image036_0009.gif" /> из <img width="13" height="16" src="main_clip_image038_0008.gif" /><em>-окрестности </em>числа <em>а</em> все значения <img width="31" height="20" src="main_clip_image028_0015.gif" /> попадут в <em><img width="12" height="13" src="main_clip_image014_0014.gif" />-окрестность </em>числа<em> А</em>: <img width="307" height="23" src="main_clip_image042_0009.gif" />.<br />
+  В этом  случае пишут <img width="76" height="28" src="main_clip_image044_0008.gif" />.<br />
+  <u>Определение Гейне:</u> Число <em>А </em>называется <strong><em>пределом  функции</em></strong> <img width="25" height="16" src="main_clip_image046_0009.gif" /> в точке <em>а</em>, если для любой последовательности <img width="28" height="20" src="main_clip_image010_0016.gif" />, сходящейся к <em>а</em> (<img width="57" height="19" src="main_clip_image049_0002.gif" />), последовательность <img width="40" height="19" src="main_clip_image051_0002.gif" /> соответствующих  значений функции сходится к <em>А</em>.<br />
+  <strong><em>Предел  функции на бесконечности: </em></strong><img width="79" height="28" src="main_clip_image053_0002.gif" />, если <img width="43" height="16" src="main_clip_image055_0002.gif" /> найдется такое число <img width="39" height="16" src="main_clip_image057_0001.gif" />, что для всех <img width="48" height="23" src="main_clip_image059_0000.gif" /> выполняется <img width="81" height="23" src="main_clip_image061_0000.gif" />.<br />
+  Если <img width="33" height="13" src="main_clip_image063_0001.gif" /> и <img width="39" height="13" src="main_clip_image030_0016.gif" />, то говорят, что <em>x <strong>стремится к числу </strong>а <strong>слева </strong></em>и записывают <img width="56" height="16" src="main_clip_image066_0006.gif" />.<br />
+  Если <img width="33" height="13" src="main_clip_image068_0007.gif" /> и <img width="39" height="13" src="main_clip_image030_0017.gif" />, то говорят, что <em>x <strong>стремится к числу </strong>а <strong>справа </strong></em>и записывают <img width="57" height="16" src="main_clip_image071_0000.gif" />.<br />
+  Числа <img width="121" height="28" src="main_clip_image073_0000.gif" />и <img width="123" height="28" src="main_clip_image075_0000.gif" /> называются соответственно <strong><em>левым </em></strong>и<strong><em> правым пределами </em></strong> функции <img width="31" height="20" src="main_clip_image028_0016.gif" />в точке <em>a.</em><br />
+  Для  существования предела функции <img width="31" height="20" src="main_clip_image028_0017.gif" /> при <img width="39" height="13" src="main_clip_image030_0018.gif" /> необходимо и  достаточно‚ чтобы <img width="108" height="20" src="main_clip_image080_0005.gif" />.<br />
+  Если функция <img width="31" height="20" src="main_clip_image028_0018.gif" /> имеет предел при <img width="39" height="13" src="main_clip_image030_0019.gif" />, то этот предел –  единственный.<br />
+  Функция <img width="31" height="20" src="main_clip_image028_0019.gif" /> называется <strong><em>бесконечно  большой</em></strong>при <img width="39" height="13" src="main_clip_image030_0020.gif" />, если предел функции в точке <em>а</em> не существует, т.е. если абсолютное значение <img width="31" height="20" src="main_clip_image028_0020.gif" /> неограниченно  возрастает при <img width="39" height="13" src="main_clip_image030_0021.gif" />. Тогда условно записывают <img width="76" height="28" src="main_clip_image088_0005.gif" />. <br />
+  Функция <img width="31" height="20" src="main_clip_image090_0007.gif" /> называется <strong><em>бесконечно  малой</em></strong>при <img width="39" height="13" src="main_clip_image030_0022.gif" />, если <img width="72" height="28" src="main_clip_image093_0000.gif" />.<br />
+  Если <img width="76" height="28" src="main_clip_image088_0006.gif" />, то <img width="76" height="40" src="main_clip_image096_0004.gif" /> (при <img width="52" height="20" src="main_clip_image098_0003.gif" /> <em><img width="76" height="19" src="main_clip_image100_0002.gif" /></em>). <br />
+  Если <img width="73" height="28" src="main_clip_image102_0002.gif" />, то <img width="79" height="40" src="main_clip_image104_0001.gif" /> (при <img width="52" height="20" src="main_clip_image098_0004.gif" /> <em><img width="76" height="19" src="main_clip_image100_0003.gif" /></em>).<br />
+  <strong><u>Свойства пределов</u></strong></span></span></span></span></p>
+<div align="justify" class="style38">
+  <ul>
+    <li><img width="60" height="28" src="main_clip_image106_0000.gif" />, где <em>С</em> = const.</li>
+  </ul>
+</div>
+<p align="justify" class="style38">Если функции <img width="31" height="20" src="main_clip_image028_0021.gif" /> и <img width="29" height="19" src="main_clip_image109_0003.gif" /> имеют пределы при <img width="39" height="13" src="main_clip_image030_0023.gif" />, то </p>
+<div align="justify" class="style38">
+  <ul>
+    <li><img width="208" height="28" src="main_clip_image112_0000.gif" />;</li>
+    <li><img width="197" height="28" src="main_clip_image114_0000.gif" />; <em>Следствие: </em><img width="144" height="43" src="main_clip_image116_0001.gif" />, где  <em>m </em>– натуральное число.</li>
+    <li><img width="117" height="55" src="main_clip_image118_0000.gif" />    (при <img width="75" height="28" src="main_clip_image120_0000.gif" />; </li>
+    <li><img width="133" height="28" src="main_clip_image122_0000.gif" />, где <em>k</em> – постоянный  множитель; </li>
+  </ul>
+</div>
+<p align="justify" class="style38"><em>Следствие:</em> Предел многочлена <img width="31" height="20" src="main_clip_image124_0000.gif" /> при <img width="39" height="13" src="main_clip_image030_0024.gif" /> равен <img width="31" height="20" src="main_clip_image127_0001.gif" />, т.е. <img width="92" height="28" src="main_clip_image129_0001.gif" />.</p>
+<div align="justify" class="style38"><strong><u><br clear="all" />
+  </u></strong></div>
+<p align="justify" class="style38"><strong><u>Методы вычисления пределов</u></strong><img width="55" height="28" src="main_clip_image131_0001.gif" /></p>
+<div align="justify" class="style38">
+  <ul>
+    <li>Прямая подстановка (<img width="33" height="13" src="main_clip_image133_0001.gif" />) с применением свойств пределов.</li>
+  </ul>
+</div>
+<p align="justify" class="style38">Если  прямая постановка приводит к так называемой <em>неопределенности</em> <img width="215" height="35" src="main_clip_image135_0001.gif" />, то применяются следующие способы раскрытия неопределенности.</p>
+<div align="justify" class="style38">
+  <ul>
+    <li>Алгебраические преобразования функции <img width="31" height="20" src="main_clip_image028_0022.gif" />, которые непосредственно снимают возникшую неопределенность.</li>
+    <li>Неопределенность типа <img width="37" height="12" src="main_clip_image138.gif" /> (или 0 – 0)  разрешается путем вынесения общего множителя, приводящего к выражению <img width="15" height="35" src="main_clip_image140.gif" />(или 0).</li>
+    <li>Неопределенность типа <img width="17" height="35" src="main_clip_image142.gif" /> возникает, как  правило, в пределах вида: <img width="60" height="37" src="main_clip_image144.gif" />, где <img width="31" height="20" src="main_clip_image124_0001.gif" /> и <img width="41" height="20" src="main_clip_image147_0001.gif" />многочлены, и разрешается путем деления числителя и знаменателя  на старшую степень или, как <em>следствие</em>,  применением <strong><em>правила старших членов</em></strong>: </li>
+  </ul>
+</div>
+<p align="justify" class="style38">а)     если максимальная степень числителя равна  максимальной степени знаменателя, то предел равен отношению коэффициентов при  максимальных степенях числителя и знаменателя;<br />
+  б)     если максимальная степень числителя больше  максимальной степени знаменателя, то предел равен <img width="15" height="12" src="main_clip_image149_0001.gif" />;<br />
+  в)     если максимальная степень числителя меньше  максимальной степени знаменателя, то предел равен 0.</p>
+<div align="justify" class="style38">
+  <ul>
+    <li>Неопределенность типа <img width="15" height="35" src="main_clip_image151_0001.gif" /> разрешается путем  разложения числителя и знаменателя на множители и сокращением на общий  множитель (<img width="32" height="13" src="main_clip_image153_0001.gif" />), который в переделе равен 0. При этом если числитель (и/или  знаменатель) содержит иррациональность, то он предварительно умножаются на выражение,  сопряженное к числителю (и/или знаменателю). </li>
+    <li>Неопределенности типа <img width="17" height="35" src="main_clip_image155_0000.gif" /> или <img width="17" height="35" src="main_clip_image157_0000.gif" /> с тригонометрическими  функциями разрешаются путем привидения к <strong><em>первому замечательному пределу: </em></strong><img width="132" height="37" src="main_clip_image159_0000.gif" />.</li>
+    <li>Неопределенности типа <img width="17" height="19" src="main_clip_image161_0000.gif" /> или <img width="15" height="19" src="main_clip_image163_0000.gif" /> разрешаются путем  привидения ко <strong><em>второму замечательному пределу: </em></strong></li>
+  </ul>
+</div>
+<p align="justify" class="style38"><em><img width="245" height="44" src="main_clip_image165_0000.gif" />.</em></p>
+<ul>
+<div align="justify" class="style38">
+  <ul>
+    <li>Неопределенность  типа <img width="15" height="35" src="main_clip_image151_0002.gif" /> с логарифмическими или  экспоненциальными функциями разрешается путем привидения к <em>следствиям из второго замечательного предела: </em><strong><img width="89" height="37" src="main_clip_image167_0000.gif" />; <img width="76" height="40" src="main_clip_image169_0000.gif" />.</strong></li>
+  </ul>
+</div>
+<p align="justify" class="style38"><strong>ПРИМЕРЫ</strong><br />
+    <strong><u>Пример 2.1.1.</u></strong> <img width="87" height="36" src="main_clip_image002_0014.gif" /><img width="101" height="37" src="main_clip_image004_0014.gif" />.<br />
+    <strong><u>Пример 2.1.2.</u></strong> <img width="63" height="37" src="main_clip_image006_0015.gif" /><img width="261" height="39" src="main_clip_image008_0016.gif" />.<br />
+    <strong><u>Пример 2.1.3. </u></strong><img width="96" height="40" src="main_clip_image010_0017.gif" /><img width="315" height="41" src="main_clip_image012_0015.gif" />.<br />
+    <strong><u>Пример 2.1.4. </u></strong><br />
+    <img width="101" height="40" src="main_clip_image014_0015.gif" /><img width="241" height="39" src="main_clip_image016_0012.gif" /><img width="282" height="39" src="main_clip_image018_0012.gif" /><br />
+    <img width="137" height="37" src="main_clip_image020_0011.gif" /><img width="271" height="39" src="main_clip_image022_0012.gif" />.<br />
+    <strong><u>Пример 2.1.5.</u> <img width="87" height="43" src="main_clip_image024_0016.gif" /><img width="356" height="44" src="main_clip_image026_0015.gif" /></strong><br />
+    <strong><img width="393" height="43" src="main_clip_image028_0023.gif" /></strong>.<br />
+    <strong><u>Пример 2.1.6.</u> <img width="59" height="37" src="main_clip_image030_0025.gif" /><img width="245" height="39" src="main_clip_image032_0012.gif" /></strong>.<br />
+    <strong><u>Пример 2.1.7.</u></strong> <img width="65" height="31" src="main_clip_image034_0012.gif" /><img width="264" height="39" src="main_clip_image036_0010.gif" />.<br />
+    <strong><u>Пример 2.1.8.</u></strong> <img width="79" height="49" src="main_clip_image038_0009.gif" /><img width="361" height="127" src="main_clip_image040_0009.gif" />.<br />
+    <strong><u>Пример 2.1.9.</u></strong> <img width="121" height="27" src="main_clip_image042_0010.gif" /><img width="91" height="20" src="main_clip_image044_0009.gif" /><img width="201" height="43" src="main_clip_image046_0010.gif" /><br />
+    <img width="95" height="43" src="main_clip_image048_0009.gif" /><img width="212" height="64" src="main_clip_image050_0008.gif" />.</p>
+<p align="justify" class="style38"><strong>Вопросы и упражнения для самоконтроля</strong></p>
+<div align="justify" class="style38">
+  <ol>
+    <li>Что  называется пределом функции в терминах <img width="32" height="16" src="main_clip_image002_0015.gif" /> окрестностей? </li>
+    <li>Что  называется пределом функции на языке последовательностей?</li>
+    <li>Найти  пределы:</li>
+  </ol>
+</div>
+<p align="justify" class="style38">3.1. <img width="63" height="27" src="main_clip_image004_0015.gif" />;                  3.2. <strong><img width="69" height="27" src="main_clip_image006_0016.gif" /></strong>;                3.3. <strong><img width="73" height="32" src="main_clip_image008_0017.gif" />;              </strong>3.4. <strong><img width="88" height="29" src="main_clip_image010_0018.gif" /></strong>;         3.5. <img width="76" height="33" src="main_clip_image012_0016.gif" />;<br />
+  3.6. <strong><img width="68" height="40" src="main_clip_image014_0016.gif" /></strong>;                3.7. <img width="56" height="37" src="main_clip_image016_0013.gif" />;                    3.8. <img width="56" height="37" src="main_clip_image018_0013.gif" />;                    3.9. <img width="61" height="40" src="main_clip_image020_0012.gif" />;                   3.10. <img width="65" height="37" src="main_clip_image022_0013.gif" />.</p>
+<p align="justify" class="style38"><strong>УПРАЖНЕНИЯ</strong><br />
+  Найти пределы: </p>
+<div align="justify" class="style37">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="93" height="43" src="main_clip_image024_0017.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="103" height="40" src="main_clip_image026_0016.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="63" height="35" src="main_clip_image028_0024.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="84" height="37" src="main_clip_image030_0026.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="81" height="44" src="main_clip_image032_0013.gif" /></strong>;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="69" height="37" src="main_clip_image034_0013.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="125" height="47" src="main_clip_image036_0011.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="147" height="31" src="main_clip_image038_0010.gif" /><strong>;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="108" height="36" src="main_clip_image040_0010.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="92" height="47" src="main_clip_image042_0011.gif" /><strong>;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="105" height="45" src="main_clip_image044_0010.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="64" height="37" src="main_clip_image046_0011.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="71" height="40" src="main_clip_image048_0010.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="103" height="45" src="main_clip_image050_0009.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="121" height="40" src="main_clip_image052_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="109" height="40" src="main_clip_image054_0007.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="87" height="40" src="main_clip_image056_0008.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="109" height="40" src="main_clip_image058_0008.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="63" height="43" src="main_clip_image060_0008.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="119" height="41" src="main_clip_image062_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="117" height="41" src="main_clip_image064_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="68" height="40" src="main_clip_image066_0007.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="71" height="40" src="main_clip_image068_0008.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="85" height="40" src="main_clip_image070_0007.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="105" height="40" src="main_clip_image072_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="128" height="40" src="main_clip_image074_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="113" height="41" src="main_clip_image076_0006.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="80" height="39" src="main_clip_image078_0006.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="91" height="40" src="main_clip_image080_0006.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="120" height="40" src="main_clip_image082_0011.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="104" height="33" src="main_clip_image084_0006.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="129" height="33" src="main_clip_image086_0005.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="83" height="40" src="main_clip_image088_0007.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="88" height="40" src="main_clip_image090_0008.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="87" height="43" src="main_clip_image092_0007.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="63" height="39" src="main_clip_image094_0004.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><strong><img width="188" height="33" src="main_clip_image096_0005.gif" />;</strong></li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="180" height="35" src="main_clip_image098_0005.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="64" height="37" src="main_clip_image100_0004.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="60" height="35" src="main_clip_image102_0003.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="71" height="27" src="main_clip_image104_0002.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="60" height="37" src="main_clip_image106_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="67" height="40" src="main_clip_image108_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="75" height="37" src="main_clip_image110_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="79" height="40" src="main_clip_image112_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="64" height="37" src="main_clip_image114_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="60" height="37" src="main_clip_image116_0002.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="67" height="44" src="main_clip_image118_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="67" height="40" src="main_clip_image120_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="87" height="43" src="main_clip_image122_0001.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="76" height="37" src="main_clip_image124_0002.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="81" height="44" src="main_clip_image126_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="73" height="29" src="main_clip_image128.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="76" height="44" src="main_clip_image130.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="89" height="32" src="main_clip_image132.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="71" height="31" src="main_clip_image134.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="73" height="44" src="main_clip_image136.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="93" height="44" src="main_clip_image138_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="96" height="52" src="main_clip_image140_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="63" height="40" src="main_clip_image142_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="71" height="37" src="main_clip_image144_0000.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="77" height="48" src="main_clip_image146.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="75" height="44" src="main_clip_image148.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="75" height="44" src="main_clip_image150.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="73" height="44" src="main_clip_image152.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><ol>
+        <ol>
+          <li><img width="77" height="33" src="main_clip_image154.gif" />;</li>
+        </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="34%" class="style17"><ol>
+        <ol>
+          <li><img width="89" height="29" src="main_clip_image156.gif" />;</li>
+        </ol>
+      </ol></td>
+      <td width="33%" class="style17"><ol>
+        <ol>
+          <li><img width="63" height="40" src="main_clip_image158.gif" />.</li>
+        </ol>
+      </ol></td>
+      <td width="31%" class="style17"><p>&nbsp;</p></td>
+    </tr>
+  </table>
+</div>
+<p class="style37">&nbsp;</p>
+<p align="center" class="style36">2.2. Производная и дифференциал функции</p>
+<p align="justify" class="style38">Пусть <img width="15" height="20" src="main_clip_image002_0016.gif" /> и <img width="17" height="20" src="main_clip_image004_0016.gif" /> -  значения аргумента, а <img width="61" height="20" src="main_clip_image006_0017.gif" /> и <img width="65" height="20" src="main_clip_image008_0018.gif" />-  соответствующие значения функции. Разность <img width="71" height="20" src="main_clip_image010_0019.gif" /> называется <strong>приращением  аргумента</strong>, а разность <img width="167" height="20" src="main_clip_image012_0017.gif" /> - <strong>приращением  функции </strong>на отрезке <img width="44" height="20" src="main_clip_image014_0017.gif" />.<br />
+    <strong>Производной </strong>функции <img width="52" height="20" src="main_clip_image016_0014.gif" /> по аргументу х называется конечный предел отношения  приращения функции к приращению аргумента, когда последнее стремится к нулю: <br />
+    <img width="113" height="39" src="main_clip_image018_0014.gif" /> или <img width="175" height="39" src="main_clip_image020_0013.gif" />.<br />
+  Производная  отражает скорость изменения функции в точке х.<br />
+  Геометрически  производная представляет собой угловой коэффициент касательной к графику  функции <img width="52" height="20" src="main_clip_image016_0015.gif" /> в точке х.<br />
+  Функция, имеющая  конечную производную, называется <strong>дифференцируемой</strong>, а процесс  нахождения производной называется <strong>дифференцированием функции</strong>.<br />
+  <strong><u>Формулы дифференцирования основных  функций</u></strong></p>
+<div align="justify" class="style37">
+  <div align="justify">
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+        <td width="22%" class="style17"><br />
+          10. <img width="72" height="23" src="main_clip_image023_0001.gif" />; </td>
+        <td width="23%"><p class="style17">50. <img width="80" height="23" src="main_clip_image025_0001.gif" />;</p></td>
+        <td width="26%"><p class="style17">90. <img width="91" height="20" src="main_clip_image027_0002.gif" />;</p></td>
+        <td width="27%"><p class="style17">130. <img width="128" height="41" src="main_clip_image029_0002.gif" />;</p></td>
+      </tr>
+      <tr>
+        <td width="22%"><p class="style17">20. <img width="76" height="39" src="main_clip_image031_0002.gif" />;</p></td>
+        <td width="23%"><p class="style17">60. <img width="60" height="35" src="main_clip_image033_0002.gif" />;</p></td>
+        <td width="26%"><p class="style17">100. <img width="85" height="36" src="main_clip_image035_0002.gif" />;</p></td>
+        <td width="27%"><p class="style17">140. <img width="101" height="36" src="main_clip_image037_0003.gif" />;</p></td>
+      </tr>
+      <tr>
+        <td width="22%"><p class="style17">30. <img width="73" height="44" src="main_clip_image039_0003.gif" />;</p></td>
+        <td width="23%"><p class="style17">70. <img width="93" height="35" src="main_clip_image041_0003.gif" />;</p></td>
+        <td width="26%"><p class="style17">110. <img width="100" height="36" src="main_clip_image043_0002.gif" />;</p></td>
+        <td width="27%"><p class="style17">150. <img width="119" height="36" src="main_clip_image045_0002.gif" />.</p></td>
+      </tr>
+      <tr>
+        <td width="22%"><p class="style17">40. <img width="56" height="23" src="main_clip_image047_0003.gif" />;</p></td>
+        <td width="23%"><p class="style17">80. <img width="83" height="20" src="main_clip_image049_0003.gif" />;</p></td>
+        <td width="26%"><p class="style17">120. <img width="116" height="41" src="main_clip_image051_0003.gif" />;</p></td>
+        <td width="27%" valign="top"><p>&nbsp;</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p align="justify" class="style38"><strong><u>Основные  правила дифференцирования</u></strong><br />
+  Пусть <img width="49" height="20" src="main_clip_image053_0003.gif" /> и <img width="47" height="20" src="main_clip_image055_0003.gif" /> – дифференцируемые  функции, C –  постоянная величина, тогда:</p>
+<div align="center" class="style37">
+  
+  <div align="justify">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="123" class="style17"><br />
+          1. <img width="37" height="17" src="main_clip_image057_0002.gif" />; </td>
+        <td width="204"><p class="style17">3. <img width="65" height="20" src="main_clip_image059_0001.gif" />;</p></td>
+        <td width="204"><p class="style17">5. <img width="92" height="20" src="main_clip_image061_0001.gif" />;</p></td>
+      </tr>
+      <tr>
+        <td width="123"><p class="style17">2. <img width="33" height="17" src="main_clip_image063_0002.gif" />;</p></td>
+        <td width="204"><p class="style17">4. <img width="88" height="20" src="main_clip_image065_0002.gif" />;</p></td>
+        <td width="204"><p class="style17">6. <img width="93" height="44" src="main_clip_image067_0000.gif" />, при <img width="32" height="16" src="main_clip_image069_0000.gif" />.</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p align="justify" class="style38">Если<img width="52" height="20" src="main_clip_image071_0001.gif" />и<img width="49" height="20" src="main_clip_image053_0004.gif" />-  дифференцируемые функции своих аргументов, то <strong>производная сложной функции</strong><img width="68" height="20" src="main_clip_image074_0007.gif" />существует и равна произведению производной  данной функции y по промежуточному аргументу u и производной промежуточного аргумента u по независимой переменной x: <img width="57" height="20" src="main_clip_image076_0007.gif" />.<br />
+  В случае, когда  сложная функция имеет вид, удобный для логарифмирования (например, сложную  степень), для нахождения производной используют <strong><u>способ логарифмического дифференцирования </u></strong><img width="83" height="41" src="main_clip_image078_0007.gif" /><strong>:</strong></p>
+<ul>
+<div align="justify" class="style37">
+  <div align="justify">
+    <ul>
+      <li class="style17">заменить функцию y на <img width="21" height="23" src="main_clip_image080_0007.gif" />;</li>
+      <li class="style17">прологарифмировать  выражение <img width="21" height="23" src="main_clip_image080_0008.gif" />;</li>
+      <li class="style17">преобразовать <img width="33" height="23" src="main_clip_image083_0000.gif" /> в более простое для  дифференцирования выражение в соответствии со свойствами логарифмов;</li>
+      <li class="style17">найти производную полученного  от <img width="33" height="23" src="main_clip_image083_0001.gif" /> выражения;</li>
+      <li class="style17">найти производную <img width="16" height="20" src="main_clip_image085_0000.gif" /> по формуле: <img width="81" height="28" src="main_clip_image087_0001.gif" />.</li>
+    </ul>
+  </div>
+</div>
+<p align="justify" class="style38">Если  уравнение <img width="65" height="20" src="main_clip_image002_0017.gif" />, неразрешенное относительно y,  определяет y как однозначную функцию x, то y называется  <strong>неявной</strong> функцией от x.<br />
+  Пусть  уравнение <img width="65" height="20" src="main_clip_image002_0018.gif" /> определяет y как неявную функцию от x. В дальнейшем будем  считать эту функцию дифференцируемой. Продифференцировав по x обе части уравнения <img width="65" height="20" src="main_clip_image005.gif" />, получим уравнение первой степени относительно <img width="16" height="20" src="main_clip_image007.gif" />. Из этого уравнения легко находится <img width="16" height="20" src="main_clip_image007_0000.gif" />, т.е. производная неявной функции для всех значений x и y, при  которых множитель при <img width="16" height="20" src="main_clip_image007_0001.gif" /> в уравнении не  обращается в нуль.</p>
+<p align="justify" class="style38">Систему  соотношений <img width="48" height="20" src="main_clip_image011.gif" />, <img width="49" height="20" src="main_clip_image013_0000.gif" />, где <img width="55" height="19" src="main_clip_image015_0000.gif" />, называют <strong>параметрическим представлением функции </strong><img width="52" height="20" src="main_clip_image017_0001.gif" />, если <img width="81" height="20" src="main_clip_image019_0002.gif" /> для всех <img width="56" height="20" src="main_clip_image021_0001.gif" />. Переменная  t  называется  в этом случае <strong>параметром</strong>.<br />
+  Если  функции <img width="27" height="20" src="main_clip_image023_0002.gif" /> и <img width="28" height="19" src="main_clip_image025_0002.gif" /> -  дифференцируемы и <img width="51" height="20" src="main_clip_image027_0003.gif" />, то существует производная <img width="16" height="20" src="main_clip_image029_0003.gif" /> параметрически заданной  функции и <img width="92" height="40" src="main_clip_image031_0003.gif" />.</p>
+<p align="justify" class="style38"><strong>Дифференциалом</strong> аргумента называется приращение аргумента: <img width="44" height="16" src="main_clip_image033_0003.gif" />.<br />
+    <strong>Дифференциал функции </strong>равен произведению ее производной на дифференциал аргумента: <img width="52" height="16" src="main_clip_image035_0003.gif" />.<br />
+    <u>Основные   свойства  дифференциала</u> <br />
+  Пусть <img width="40" height="16" src="main_clip_image037_0004.gif" /> и <img width="39" height="16" src="main_clip_image039_0004.gif" /> – дифференцируемые  функции, C– постоянная величина, тогда:</p>
+<div align="center" class="style37">
+  
+  <div align="justify">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="177" class="style17"><br />
+          1. <img width="36" height="16" src="main_clip_image041_0004.gif" />; </td>
+        <td width="177"><p class="style17">3. <img width="84" height="16" src="main_clip_image043_0003.gif" />;</p></td>
+        <td width="177"><p class="style17">5. <img width="88" height="35" src="main_clip_image045_0003.gif" />, при <img width="27" height="15" src="main_clip_image047_0004.gif" />;</p></td>
+      </tr>
+      <tr>
+        <td width="177"><p class="style17">2. <img width="64" height="16" src="main_clip_image049_0004.gif" />;</p></td>
+        <td width="177"><p class="style17">4. <img width="85" height="16" src="main_clip_image051_0004.gif" />;</p></td>
+        <td width="177"><p class="style17">6. <img width="68" height="16" src="main_clip_image053_0005.gif" />.</p></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p align="justify" class="style37"><span class="style17"><strong>ПРИМЕРЫ</strong></span><span class="style39"><br />
+    </span><span class="style17"><strong><u>Пример 2.2.1.</u></strong> Производная линейной комбинации элементарных  функций находится с применением основных формул дифференцирования и правила  дифференцирования суммы (разности) функций (4):<br />
+    <img width="455" height="45" src="main_clip_image055_0004.gif" />     <u>Ответ:</u> <img width="111" height="38" src="main_clip_image057_0003.gif" />. <br />
+    <strong><u>Пример 2.2.2.</u></strong> Производная произведения элементарных функций  находится с применением основных формул дифференцирования и правила дифференцирования  произведения функций (5):<br />
+    <img width="365" height="39" src="main_clip_image059_0002.gif" /><a name="OLE_LINK2" id="OLE_LINK2"></a><a name="OLE_LINK1" id="OLE_LINK1"><img width="189" height="38" src="main_clip_image061_0002.gif" /></a>.<br />
+    <u>Ответ:</u> <img width="119" height="36" src="main_clip_image063_0003.gif" />.<br />
+    <strong><u>Пример 2.2.3.</u> </strong>Производная частного двух функций находится с  применением основных формул дифференцирования и правила дифференцирования частного  (6):<br />
+    <img width="284" height="52" src="main_clip_image065_0003.gif" /><img width="153" height="43" src="main_clip_image067_0001.gif" /><br />
+    <img width="312" height="43" src="main_clip_image069_0001.gif" />.                                    <u>Ответ:</u> <img width="25" height="18" src="main_clip_image071_0002.gif" /><img width="53" height="43" src="main_clip_image073_0001.gif" />.<br />
+    <strong><u>Пример 2.2.4.</u> </strong>Производная  сложной функции<strong>:</strong> <img width="371" height="28" src="main_clip_image075_0001.gif" />.<br />
+    <u>Ответ:</u> <img width="104" height="23" src="main_clip_image077_0000.gif" />.<br />
+    <strong><u>Пример 2.2.5.</u> </strong>Производная  сложной функции <img width="63" height="41" src="main_clip_image079_0000.gif" /><strong>:</strong><br />
+    <img width="439" height="67" src="main_clip_image081_0001.gif" /><br />
+    <img width="331" height="71" src="main_clip_image083_0002.gif" /><img width="271" height="45" src="main_clip_image085_0001.gif" /><br />
+    <img width="381" height="43" src="main_clip_image087_0002.gif" />.                                            <u>Ответ:</u> <img width="25" height="18" src="main_clip_image071_0003.gif" /><img width="59" height="39" src="main_clip_image089_0000.gif" />.<br />
+    <strong><u>Пример 2.2.6.</u> </strong>Логарифмическое  дифференцирование:<br />
+  Пусть <img width="76" height="23" src="main_clip_image091_0000.gif" /> <img width="175" height="28" src="main_clip_image093_0001.gif" />, <br />
+  <img width="345" height="28" src="main_clip_image095_0001.gif" /><img width="252" height="36" src="main_clip_image097_0001.gif" /> <br />
+  <img width="111" height="36" src="main_clip_image099_0001.gif" /><img width="246" height="35" src="main_clip_image101_0002.gif" /> <img width="217" height="36" src="main_clip_image103_0002.gif" />.<br />
+  <u>Ответ:</u> <img width="151" height="36" src="main_clip_image105_0002.gif" />.<br />
+  <strong><u>Пример 2.2.7.</u></strong> Дифференцирование  неявной функции:<br />
+  Пусть функция задана неявно в  виде <img width="65" height="20" src="main_clip_image002_0019.gif" />: <strong><img width="133" height="23" src="main_clip_image108_0001.gif" /><img width="136" height="23" src="main_clip_image110_0001.gif" />.</strong><br />
+  Дифференцируем правую и левую  части выражения по <img width="12" height="13" src="main_clip_image112_0002.gif" /> как независимой  переменной, учитывая при этом, что <img width="51" height="20" src="main_clip_image114_0002.gif" /> и, следовательно, для  любой функции <img width="71" height="20" src="main_clip_image116_0003.gif" /> производная будет  определяться по формуле <img width="67" height="23" src="main_clip_image118_0002.gif" />:<br />
+  <img width="151" height="23" src="main_clip_image120_0002.gif" />;<br />
+  <img width="223" height="23" src="main_clip_image122_0002.gif" />;<br />
+  <img width="239" height="23" src="main_clip_image124_0003.gif" />;<br />
+  <img width="220" height="23" src="main_clip_image126_0001.gif" />.<br />
+  Раскрываем скобки и группируем  множители перед <img width="16" height="20" src="main_clip_image007_0002.gif" />:<br />
+  <img width="263" height="23" src="main_clip_image129_0002.gif" />;<br />
+  <strong><img width="260" height="23" src="main_clip_image131_0002.gif" />;</strong><br />
+  <strong><img width="240" height="23" src="main_clip_image133_0002.gif" />.</strong><br />
+  Из полученного равенства вычисляем: <strong><img width="132" height="43" src="main_clip_image135_0002.gif" />.</strong><br />
+  <u>Ответ:</u> <strong><img width="132" height="43" src="main_clip_image135_0003.gif" /></strong>.<br />
+  <strong><u>Пример 2.2.8.</u></strong> Дифференцирование  параметрической функции: <img width="65" height="20" src="main_clip_image137_0001.gif" />, <img width="63" height="23" src="main_clip_image139_0001.gif" />.<br />
+  <img width="393" height="43" src="main_clip_image141_0001.gif" /><img width="167" height="43" src="main_clip_image143_0001.gif" /> <u>Ответ:</u> <strong><img width="27" height="20" src="main_clip_image145_0001.gif" /></strong><img width="23" height="20" src="main_clip_image147_0002.gif" /></span></p>
+<p align="justify" class="style38"><strong>Вопросы и упражнения для самоконтроля</strong></p>
+<div align="justify" class="style37">
+  <div align="justify">
+    <ol>
+      <li class="style17">Что  называется производной функции?</li>
+      <li class="style17">Приведите  примеры функций, дифференцируемых во всей области определения.</li>
+      <li class="style17">Каковы  физический и геометрический смыслы производной?</li>
+      <li class="style17">Найти  производные функций и указать, какими правилами дифференцирования нужно  воспользоваться:</li>
+    </ol>
+  </div>
+</div>
+<p align="justify" class="style38"><strong>4.1.</strong> <strong><img width="125" height="23" src="main_clip_image002_0020.gif" /></strong>;               <strong>4.2.</strong> <strong><img width="41" height="37" src="main_clip_image004_0017.gif" /></strong>;                         <strong>4.3.</strong> <img width="59" height="23" src="main_clip_image006_0018.gif" />;                                  <strong>4.4. </strong><img width="59" height="19" src="main_clip_image008_0019.gif" />.</p>
+<p align="justify" class="style38"><strong>УПРАЖНЕНИЯ</strong><br />
+  Найти п<em>роизводные <img width="17" height="20" src="main_clip_image002_0021.gif" />:</em></p>
+
+<div align="justify" class="style25">
+  <table border="0" cellspacing="0" cellpadding="0" width="103%">
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="92" height="24" src="main_clip_image004_0018.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="65" height="35" src="main_clip_image006_0019.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="51" height="23" src="main_clip_image008_0020.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="147" height="23" src="main_clip_image010_0020.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="49" height="35" src="main_clip_image012_0018.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="67" height="40" src="main_clip_image014_0018.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="176" height="23" src="main_clip_image016_0016.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="91" height="23" src="main_clip_image018_0015.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="87" height="17" src="main_clip_image020_0014.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="48" height="37" src="main_clip_image022_0014.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="47" height="40" src="main_clip_image024_0018.gif" />;</strong></li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="85" height="20" src="main_clip_image026_0017.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="59" height="23" src="main_clip_image028_0025.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="67" height="23" src="main_clip_image030_0027.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="63" height="20" src="main_clip_image032_0014.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="77" height="23" src="main_clip_image034_0014.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="101" height="25" src="main_clip_image036_0012.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="112" height="23" src="main_clip_image038_0011.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="65" height="40" src="main_clip_image040_0011.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="65" height="36" src="main_clip_image042_0012.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="60" height="41" src="main_clip_image044_0011.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="167" height="23" src="main_clip_image046_0012.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="53" height="23" src="main_clip_image048_0011.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="47" height="23" src="main_clip_image050_0010.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="75" height="40" src="main_clip_image052_0007.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="71" height="43" src="main_clip_image054_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="72" height="27" src="main_clip_image056_0009.gif" />;</strong></li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="64" height="23" src="main_clip_image058_0009.gif" />;</strong></li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="160" height="23" src="main_clip_image060_0009.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="85" height="20" src="main_clip_image062_0007.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="109" height="20" src="main_clip_image064_0007.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="168" height="39" src="main_clip_image066_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="84" height="19" src="main_clip_image068_0009.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="64" height="25" src="main_clip_image070_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="88" height="35" src="main_clip_image072_0007.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="107" height="44" src="main_clip_image074_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="148" height="44" src="main_clip_image076_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="87" height="28" src="main_clip_image078_0008.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="77" height="23" src="main_clip_image080_0009.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="71" height="23" src="main_clip_image082_0012.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="111" height="27" src="main_clip_image084_0007.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="169" height="47" src="main_clip_image086_0006.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="41" height="23" src="main_clip_image088_0008.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="48" height="23" src="main_clip_image090_0009.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="59" height="23" src="main_clip_image092_0008.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="76" height="23" src="main_clip_image094_0005.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="120" height="44" src="main_clip_image096_0006.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="45" height="25" src="main_clip_image098_0006.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="112" height="44" src="main_clip_image100_0005.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="89" height="23" src="main_clip_image102_0004.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="127" height="23" src="main_clip_image104_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="103" height="35" src="main_clip_image106_0002.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="208" height="28" src="main_clip_image108_0002.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="63" height="23" src="main_clip_image110_0002.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="107" height="23" src="main_clip_image112_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="104" height="20" src="main_clip_image114_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="125" height="23" src="main_clip_image116_0004.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="95" height="23" src="main_clip_image118_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="83" height="25" src="main_clip_image120_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><strong><img width="95" height="23" src="main_clip_image122_0003.gif" /></strong>;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="59" height="20" src="main_clip_image124_0004.gif" />, <img width="63" height="23" src="main_clip_image126_0002.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="64" height="16" src="main_clip_image128_0000.gif" />, <img width="67" height="19" src="main_clip_image130_0000.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="53" height="20" src="main_clip_image132_0000.gif" />, <img width="56" height="23" src="main_clip_image134_0000.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="49" height="37" src="main_clip_image136_0000.gif" />, <img width="49" height="37" src="main_clip_image138_0001.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="61" height="27" src="main_clip_image140_0001.gif" />, <img width="87" height="39" src="main_clip_image142_0001.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="75" height="20" src="main_clip_image144_0001.gif" />, <img width="87" height="23" src="main_clip_image146_0000.gif" />;</li>
+          </ol>
+      </ol></td>
+    </tr>
+    <tr>
+      <td width="32%" class="style38"><ol>
+          <ol>
+            <li><img width="35" height="20" src="main_clip_image148_0000.gif" />, <img width="37" height="19" src="main_clip_image150_0000.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="36%" class="style38"><ol>
+          <ol>
+            <li><img width="56" height="20" src="main_clip_image152_0000.gif" />, <img width="56" height="23" src="main_clip_image154_0000.gif" />;</li>
+          </ol>
+      </ol></td>
+      <td width="31%" class="style38"><ol>
+          <ol>
+            <li><img width="57" height="15" src="main_clip_image156_0000.gif" />, <img width="57" height="20" src="main_clip_image158_0000.gif" />.</li>
+          </ol>
+      </ol></td>
+    </tr>
+  </table>
+</div>
+<p align="center" class="style3"><span class="style36">2.3. Правило Лопиталя</span></p>
+<p align="justify" class="style3"><span class="style12"><span class="style17"><span class="style15"><span class="style37"><strong><em>Правило  Лопиталя </em></strong>позволяет непосредственно раскрывать неопределенности вида <img width="15" height="35" src="main_clip_image002_0022.gif" /> и <img width="17" height="36" src="main_clip_image004_0019.gif" /> при вычислении предела  функции.<br />
+  Пусть  в некоторой окрестности точки <img width="16" height="20" src="main_clip_image006_0020.gif" /> (кроме, быть может,  самой точки <img width="16" height="20" src="main_clip_image006_0021.gif" />) функции <img width="31" height="20" src="main_clip_image009.gif" /> и <img width="29" height="20" src="main_clip_image011_0000.gif" /> дифференцируемы и <img width="53" height="20" src="main_clip_image013_0001.gif" />.<br />
+  Если <img width="145" height="28" src="main_clip_image015_0001.gif" /> или <img width="148" height="28" src="main_clip_image017_0002.gif" />, т.е. частное <img width="33" height="40" src="main_clip_image019_0003.gif" /> в точке <img width="37" height="20" src="main_clip_image021_0002.gif" /> представляет собой  неопределенность вида <img width="15" height="37" src="main_clip_image023_0003.gif" /> или <img width="17" height="36" src="main_clip_image004_0020.gif" />, то <img width="135" height="40" src="main_clip_image026_0018.gif" />, если предел в правой части этого равенства существует.<br />
+  Если частное <img width="36" height="40" src="main_clip_image028_0026.gif" /> в точке <img width="37" height="20" src="main_clip_image021_0003.gif" /> также представляет  собой неопределенность вида <img width="15" height="35" src="main_clip_image002_0023.gif" /> или <img width="17" height="36" src="main_clip_image004_0021.gif" /> и производные <img width="33" height="20" src="main_clip_image033_0004.gif" /> и <img width="32" height="20" src="main_clip_image035_0004.gif" /> удовлетворяют соответствующим  условиям, то следует перейти к отношению вторых производных и т.д. <br />
+  В случае  неопределенностей вида <img width="28" height="16" src="main_clip_image037_0005.gif" /> или <img width="36" height="12" src="main_clip_image039_0005.gif" /> следует алгебраически  преобразовать данную функцию так, чтобы привести ее к неопределенности вида <img width="15" height="37" src="main_clip_image023_0004.gif" /> или <img width="17" height="36" src="main_clip_image004_0022.gif" /> и далее  воспользоваться правилом Лопиталя.<br />
+  В  случае, когда предел функции <img width="29" height="20" src="main_clip_image043_0004.gif" /> приводит к неопределенностям  вида <img width="17" height="20" src="main_clip_image045_0004.gif" />, <img width="20" height="19" src="main_clip_image047_0005.gif" /> или <img width="16" height="19" src="main_clip_image049_0005.gif" />, можно, воспользовавшись свойствами логарифмов и пределов, прологарифмировать  данную функцию, найти предел ее логарифма и вычислить <img width="41" height="25" src="main_clip_image051_0005.gif" /> (т.к., например, для  натурального логарифма верно равенство: <img width="53" height="23" src="main_clip_image053_0006.gif" />и, следовательно, <img width="153" height="35" src="main_clip_image055_0005.gif" />).<br />
+  <strong>ПРИМЕРЫ</strong><br />
+  <strong><u>Пример 2.3.1.</u></strong> <img width="73" height="39" src="main_clip_image057_0004.gif" /><img width="36" height="39" src="main_clip_image059_0003.gif" /><img width="107" height="41" src="main_clip_image061_0003.gif" /><img width="213" height="41" src="main_clip_image063_0004.gif" /><br />
+  <img width="152" height="35" src="main_clip_image065_0004.gif" />[I-ый  замечательный предел]<img width="53" height="16" src="main_clip_image067_0002.gif" />.<br />
+  <strong><u>Пример 2.3.2.</u></strong> <img width="67" height="35" src="main_clip_image069_0002.gif" /><img width="40" height="39" src="main_clip_image071_0004.gif" /><img width="79" height="37" src="main_clip_image073_0002.gif" /><img width="156" height="35" src="main_clip_image075_0002.gif" />.<br />
+  <strong><u>Пример 2.3.3.</u> </strong><img width="73" height="31" src="main_clip_image077_0001.gif" /><img width="72" height="39" src="main_clip_image079_0001.gif" /><img width="427" height="43" src="main_clip_image081_0002.gif" />.<br />
+  <strong><u>Пример 2.3.4.</u> </strong><img width="111" height="39" src="main_clip_image083_0003.gif" /><img width="43" height="19" src="main_clip_image085_0002.gif" /><img width="253" height="39" src="main_clip_image087_0003.gif" /><br />
+  <img width="292" height="39" src="main_clip_image089_0001.gif" /><img width="124" height="40" src="main_clip_image091_0001.gif" />.<br />
+  <strong><u>Пример 2.3.5.</u> </strong><img width="89" height="29" src="main_clip_image093_0002.gif" /><img width="45" height="27" src="main_clip_image095_0002.gif" />; <br />
+  <img width="237" height="36" src="main_clip_image097_0002.gif" /><img width="112" height="39" src="main_clip_image099_0002.gif" /><img width="149" height="36" src="main_clip_image101_0003.gif" /> <img width="68" height="29" src="main_clip_image103_0003.gif" /><img width="92" height="27" src="main_clip_image105_0003.gif" />. </span></span></span></span></p>
+<p align="center" class="style38"><strong>УПРАЖНЕНИЯ</strong><br />
+  Найти предел, используя правило Лопиталя:</p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="47" height="40" src="main_clip_image002_0024.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="51" height="40" src="main_clip_image004_0023.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="72" height="29" src="main_clip_image006_0022.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="73" height="35" src="main_clip_image008_0021.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="87" height="39" src="main_clip_image010_0021.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="52" height="36" src="main_clip_image012_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="93" height="36" src="main_clip_image014_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="47" height="40" src="main_clip_image016_0017.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="88" height="40" src="main_clip_image018_0016.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="52" height="35" src="main_clip_image020_0015.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="59" height="39" src="main_clip_image022_0015.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="87" height="39" src="main_clip_image024_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="92" height="40" src="main_clip_image026_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="75" height="36" src="main_clip_image028_0027.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="75" height="41" src="main_clip_image030_0028.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="73" height="29" src="main_clip_image032_0015.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="48" height="29" src="main_clip_image034_0015.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="87" height="39" src="main_clip_image036_0013.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="51" height="43" src="main_clip_image038_0012.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="84" height="36" src="main_clip_image040_0012.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="93" height="39" src="main_clip_image042_0013.gif" /></li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="101" height="39" src="main_clip_image044_0012.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="104" height="39" src="main_clip_image046_0013.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="121" height="39" src="main_clip_image048_0012.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="68" height="31" src="main_clip_image050_0011.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="23%" class="style38"><ol>
+      <ol>
+        <li><img width="83" height="36" src="main_clip_image052_0008.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="75" height="31" src="main_clip_image054_0009.gif" /></li>
+      </ol>
+    </ol></td>
+    <td width="26%" class="style38"><ol>
+      <ol>
+        <li><img width="65" height="51" src="main_clip_image056_0010.gif" />.</li>
+      </ol>
+    </ol></td>
+  </tr>
+</table>
+<p align="center" class="style3"><span class="style36"><strong>Контрольная работа по  темам: «Пределы и Производные»</strong><br />
+  (тренировочный  вариант)</span><br />
+</p>
+<p align="justify" class="style3"><span class="style38">Найти пределы:<br />
+  <strong>№ 1. </strong><img width="112" height="40" src="main_clip_image058_0010.gif" />;              <strong>№ 2. </strong><img width="89" height="44" src="main_clip_image060_0010.gif" />;      <br />
+  <strong>№ 3. <img width="77" height="37" src="main_clip_image062_0008.gif" /></strong>;                          <strong>№ 4. <img width="99" height="52" src="main_clip_image064_0008.gif" />.</strong><br />
+  <strong>№ 5. </strong>Найти предел, используя правило  Лопиталя: <img width="56" height="39" src="main_clip_image066_0009.gif" />. <br />
+  Найти  производную <img width="17" height="20" src="main_clip_image068_0010.gif" />:<br />
+  <strong>№ 6. </strong><img width="103" height="40" src="main_clip_image070_0009.gif" />;                                              <strong>№ 7. </strong><img width="79" height="35" src="main_clip_image072_0008.gif" />; <br />
+  <strong>№ 8. <img width="128" height="37" src="main_clip_image074_0009.gif" />;                     №  9. </strong><img width="45" height="20" src="main_clip_image076_0009.gif" />, <img width="36" height="23" src="main_clip_image078_0009.gif" />. </span></p>
+<p align="center" class="style3"><span class="style36">2.4. Неопределенный интеграл</span></p>
+<p align="justify" class="style3"><span class="style38">Функция <img width="32" height="20" src="main_clip_image002_0025.gif" /> называется <strong><em>первообразной</em></strong><a href="#_ftn1" name="_ftnref1" title="" id="_ftnref2"><strong><em>*</em></strong></a>для функции <img width="31" height="20" src="main_clip_image004_0024.gif" />, если <img width="73" height="20" src="main_clip_image006_0023.gif" /> или <img width="91" height="20" src="main_clip_image008_0022.gif" />.<br />
+  Если функция <img width="31" height="20" src="main_clip_image004_0025.gif" /> имеет первообразную <img width="32" height="20" src="main_clip_image002_0026.gif" />, то она имеет бесконечное множество первообразных, причем  все первообразные содержатся в выражении <img width="53" height="20" src="main_clip_image012_0020.gif" />, где <em>С</em> – постоянная.<br />
+  <strong><em>Неопределенным  интегралом</em></strong>от функции <img width="31" height="20" src="main_clip_image004_0026.gif" /> (или от выражения  <img width="44" height="20" src="main_clip_image015_0002.gif" />) называется совокупность всех ее первообразных. <br />
+  Обозначение: <img width="115" height="25" src="main_clip_image017_0003.gif" />, где ∫ - это знак интеграла, <img width="31" height="20" src="main_clip_image004_0027.gif" /> – подынтегральная  функция, <img width="44" height="20" src="main_clip_image015_0003.gif" /> -  подынтегральное выражение, <em>x</em> – переменная интегрирования. <br />
+  Отыскание  неопределенного интеграла называется <strong><em>интегрированием </em></strong>функции.<br />
+  <strong><u>Правила  интегрирования:</u></strong><br />
+  <strong>1. </strong><img width="101" height="31" src="main_clip_image021_0004.gif" /> или <img width="119" height="25" src="main_clip_image023_0005.gif" />;<br />
+  <strong>2. </strong><img width="108" height="25" src="main_clip_image025_0003.gif" />;<br />
+  <strong>3. </strong><img width="129" height="25" src="main_clip_image027_0004.gif" /> где  <em>а</em> =  const;<br />
+  <strong>4. </strong><img width="229" height="25" src="main_clip_image029_0004.gif" />;<br />
+  <strong>5. </strong>Если <img width="115" height="25" src="main_clip_image017_0004.gif" /> и <img width="12" height="23" src="main_clip_image032_0016.gif" /><img width="48" height="20" src="main_clip_image034_0016.gif" />, то <img width="108" height="25" src="main_clip_image036_0014.gif" /><br />
+  <strong><u>Таблица  основных интегралов</u></strong></span></p>
+<div align="justify" class="style37">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="229" class="style17"><br />
+        I.     <img width="68" height="25" src="main_clip_image038_0013.gif" />. </td>
+      <td width="231" class="style17"><p>VII.  <img width="97" height="39" src="main_clip_image040_0013.gif" />.</p></td>
+      <td width="231" class="style17"><p>XIII.   <img width="155" height="41" src="main_clip_image042_0014.gif" />.</p></td>
+    </tr>
+    <tr>
+      <td width="229" class="style17"><p>II.    <img width="107" height="39" src="main_clip_image044_0013.gif" /> при <img width="41" height="16" src="main_clip_image046_0014.gif" />.</p></td>
+      <td width="231" class="style17"><p>VIII. <img width="137" height="37" src="main_clip_image048_0013.gif" />.</p></td>
+      <td width="231" class="style17"><p>XIV.   <img width="140" height="25" src="main_clip_image050_0012.gif" />.</p></td>
+    </tr>
+    <tr>
+      <td width="229" class="style17"><p>III.   <img width="93" height="35" src="main_clip_image052_0009.gif" />.</p></td>
+      <td width="231" class="style17"><p>IX.    <img width="145" height="41" src="main_clip_image054_0010.gif" />.</p></td>
+      <td width="231" class="style17"><p>XV.    <img width="132" height="25" src="main_clip_image056_0011.gif" />.</p></td>
+    </tr>
+    <tr>
+      <td width="229" class="style17"><p>IV.   <img width="119" height="36" src="main_clip_image058_0011.gif" />.</p></td>
+      <td width="231" class="style17"><p>X.     <img width="127" height="25" src="main_clip_image060_0011.gif" />.</p></td>
+      <td width="231" class="style17"><p>XVI.   <img width="141" height="36" src="main_clip_image062_0009.gif" />.</p></td>
+    </tr>
+    <tr>
+      <td width="229" class="style17"><p>V.    <img width="133" height="41" src="main_clip_image064_0009.gif" />.</p></td>
+      <td width="231" class="style17"><p>XI.    <img width="116" height="25" src="main_clip_image066_0010.gif" />.</p></td>
+      <td width="231" class="style17"><p>XVII.  <img width="153" height="39" src="main_clip_image068_0011.gif" />.</p></td>
+    </tr>
+    <tr>
+      <td width="229" class="style17"><p>VI.   <img width="87" height="25" src="main_clip_image070_0010.gif" />.</p></td>
+      <td width="231" class="style17"><p>XII.   <img width="116" height="39" src="main_clip_image072_0009.gif" />.</p></td>
+      <td width="231" class="style17"><p>XVIII. <img width="147" height="41" src="main_clip_image074_0010.gif" />. </p></td>
+    </tr>
+  </table>
+</div>
+<p align="justify" class="style38"><u>Основные  методы интегрирования</u> <br />
+  I. Метод замены переменной <br />
+  Положив <img width="51" height="20" src="main_clip_image076_0010.gif" /> и, следовательно, <img width="76" height="20" src="main_clip_image078_0010.gif" />, получим <img width="167" height="25" src="main_clip_image080_0010.gif" />.<br />
+  В простых  случаях введение новой переменной  <em>u</em>  рекомендуется  выполнять в уме, применяя следующие преобразования дифференциала <img width="19" height="17" src="main_clip_image082_0013.gif" />: <img width="93" height="35" src="main_clip_image084_0008.gif" />; <img width="76" height="23" src="main_clip_image086_0007.gif" />; <img width="71" height="35" src="main_clip_image088_0009.gif" />; <img width="104" height="20" src="main_clip_image090_0010.gif" /> и т.д.<br />
+  II. Метод интегрирования по частям <br />
+  Интегрирование  по частям выполняется по формуле: <img width="105" height="25" src="main_clip_image092_0009.gif" />, где <img width="51" height="20" src="main_clip_image094_0006.gif" />, <img width="51" height="20" src="main_clip_image096_0007.gif" /> -  непрерывно дифференцируемые функции от <em>х</em>. <br />
+  С помощью этой  формулы нахождение интеграла <img width="35" height="25" src="main_clip_image098_0007.gif" /> сводится к отысканию  другого интеграла <img width="35" height="25" src="main_clip_image100_0006.gif" />; ее применение  целесообразно в тех случаях, когда последний интеграл либо проще исходного, либо  подобен ему.</p>
+<div class="style38">
+  <div id="ftn2">
+    <div align="justify"><br />
+      <a href="#_ftnref1" name="_ftn1" title="" id="_ftn2"><strong>*</strong></a> ПЕРВО<img width="13" height="25" src="main_clip_image102_0005.gif" />БРАЗ, но ПЕРВООБР<img width="12" height="24" src="main_clip_image104_0004.gif" />ЗНЫЙ <em>книжн.</em> [Розенталь  Д.Э., Теленкова М.А. Словарь трудностей русского языка. – М.: Айрис-пресс, 2004]. </div>
+  </div>
+</div>
+<p align="justify" class="style38">При этом  за  <em>u</em> берется такая функция,  которая при дифференцировании упрощается, а за <em>dv </em>-  та  часть подынтегрального выражения,  интеграл от которой известен или может быть найден. <br />
+  Так, например,  для интегралов вида <img width="73" height="25" src="main_clip_image002_0027.gif" />, <img width="87" height="25" src="main_clip_image004_0028.gif" />, <img width="89" height="25" src="main_clip_image006_0024.gif" />, где <em>P(x)</em> -  многочлен, за <em>u</em> следует принять <em>P(x)</em>, а за <em>dv</em> –соответственно выражение <img width="37" height="23" src="main_clip_image008_0023.gif" />, <img width="52" height="20" src="main_clip_image010_0022.gif" />, <img width="55" height="20" src="main_clip_image012_0021.gif" />. <br />
+  Для интегралов  вида <img width="76" height="25" src="main_clip_image014_0020.gif" />, <img width="97" height="25" src="main_clip_image016_0018.gif" />, <img width="99" height="25" src="main_clip_image018_0017.gif" />, за <em>u</em> принимаются  соответственно функции <img width="24" height="17" src="main_clip_image020_0016.gif" />, <img width="45" height="17" src="main_clip_image022_0016.gif" />, <img width="49" height="16" src="main_clip_image024_0020.gif" />, а за <em>dv – </em>выражение <img width="44" height="20" src="main_clip_image026_0020.gif" />.<br />
+  III. Метод неопределенных  коэффициентов <br />
+  Метод  неопределенных коэффициентов заключается в разложении правильной рациональной  дроби на простые дроби, например: <br />
+  <img width="159" height="36" src="main_clip_image028_0028.gif" />,<br />
+  где <em>m </em>и <em>k</em> – корни  уравнения <img width="92" height="20" src="main_clip_image030_0029.gif" /> Неопределенные  коэффициенты  <em>А</em> и <em>В</em> находятся из  условия выполнения равенства:<br />
+  <img width="83" height="36" src="main_clip_image032_0017.gif" /><img width="47" height="35" src="main_clip_image034_0017.gif" /><img width="175" height="37" src="main_clip_image036_0015.gif" />,<br />
+  откуда, получим  систему уравнений для определения коэффициентов <em>А</em> и <em>В: </em><img width="96" height="41" src="main_clip_image038_0014.gif" /><br />
+  Таким  образом, зная значения коэффициентов <em>А</em> и <em>В</em>, получим <br />
+  <img width="395" height="36" src="main_clip_image040_0014.gif" />.<br />
+  При  выборе того или иного метода интегрирования можно ориентироваться по следующей  схеме<a href="#_ftn1" name="_ftnref1" title="" id="_ftnref3"><strong>*</strong></a>.</p>
+<div align="justify" class="style37">
+  <ul class="style17">
+    <li>Если подынтегральная функция представляет собой одну из  элементарных функций или их линейную комбинацию (или может быть сведена к  таковым путем тождественных алгебраических преобразований), то при  интегрировании <em>непосредственно используют  таблицу основных интегралов и правила интегрирования</em>.</li>
+  </ul>
+  <ul class="style17">
+    <li>Если подынтегральная функция представляет собой сложную  функцию <img width="48" height="20" src="main_clip_image042_0015.gif" />, где <img width="76" height="20" src="main_clip_image044_0014.gif" />, то применяют <em>метод замены  переменной</em> (<em>метод подстановки</em>) в  виде: <img width="299" height="57" src="main_clip_image046_0015.gif" />. </li>
+  </ul>
+</div>
+<p align="justify" class="style38">&nbsp;</p>
+<div align="justify" class="style37">
+  <ul class="style17">
+    <li>Если подынтегральная функция представляет собой  произведение двух функций, одна из которых является производной другой (с  точностью до коэффициента), то применяют <em>метод  замены переменной</em> по формуле:</li>
+  </ul>
+</div>
+<p align="justify" class="style38"><img width="295" height="25" src="main_clip_image048_0014.gif" /></p>
+<div align="justify" class="style37">
+  <ul class="style17">
+    <li>Если подынтегральная функция представляет собой  произведение двух функций, причем ни одна из них <strong>не</strong> является производной другой, то применяют <em>метод интегрирования по частям</em>: <img width="105" height="25" src="main_clip_image050_0013.gif" />.</li>
+  </ul>
+</div>
+<p align="justify" class="style38">&nbsp;</p>
+<div align="justify" class="style37">
+  <ul class="style17">
+    <li>Если подынтегральная функция является  дробно-рациональной, т.е. <img width="73" height="37" src="main_clip_image052_0010.gif" />, где <img width="72" height="20" src="main_clip_image054_0011.gif" />полиномы (многочлены)<a href="#_ftn2" name="_ftnref2" title="" id="_ftnref4"><strong>*</strong></a><strong>*</strong>, то рассматривают следующие варианты:</li>
+  </ul>
+</div>
+<p align="justify" class="style38">а)  если <img width="83" height="37" src="main_clip_image056_0012.gif" />неправильная дробь, т.е. степень полинома в числителе (<img width="31" height="20" src="main_clip_image058_0012.gif" />) больше или равна степени полинома в знаменателе (<img width="31" height="20" src="main_clip_image060_0012.gif" />), то выделяют целую часть от неправильной дроби и далее  выделенные слагаемые – целый полином и (<em>правильную</em>)  дробно-рациональную функцию – интегрируют по отдельности;<br />
+  б)  если <img width="40" height="20" src="main_clip_image062_0010.gif" />дробь вида <img width="35" height="35" src="main_clip_image064_0010.gif" /> или <img width="48" height="36" src="main_clip_image066_0011.gif" /> то интегрируют с  применением соответствующих табличных интегралов (III, XVI, XVII);</p>
+<div class="style38">
+  <div id="ftn3">
+    <div align="justify"><br />
+      <a href="#_ftnref1" name="_ftn1" title="" id="_ftn3"><strong>*</strong></a> Данная  схема охватывает только основные (самые простые) приемы интегрирования и не  является исчерпывающей. </div>
+  </div>
+  <div id="ftn4">
+    <p align="justify"><a href="#_ftnref2" name="_ftn2" title="" id="_ftn4"><strong>*</strong></a><strong>*</strong> Например, <img width="212" height="21" src="main_clip_image068_0012.gif" />полином <em>n</em>-ой степени. Заметим, что любое число можно считать тривиальным  полиномом нулевой степени: <img width="80" height="21" src="main_clip_image070_0011.gif" />.</p>
+  </div>
+</div>
+<p align="justify" class="style38">в)  если <img width="40" height="20" src="main_clip_image002_0028.gif" />дробь вида <img width="33" height="37" src="main_clip_image004_0029.gif" />, где <img width="41" height="20" src="main_clip_image006_0025.gif" />полином второй степени, не имеющий действительных корней,  т.е. его дискриминант <img width="36" height="16" src="main_clip_image008_0024.gif" />, то такую дробь с помощью тождественных преобразований  приводят к виду <img width="76" height="39" src="main_clip_image010_0023.gif" />и интегрируют по формуле XVI из таблицы интегралов.<br />
+  г)  если <img width="83" height="37" src="main_clip_image012_0022.gif" />правильная дробь, т.е. степень полинома в числителе (<img width="31" height="20" src="main_clip_image014_0021.gif" />) меньше степени полинома в знаменателе (<img width="31" height="20" src="main_clip_image016_0019.gif" />), и полином в знаменателе <img width="31" height="20" src="main_clip_image016_0020.gif" /> имеет действительные  корни, например, для полинома <img width="31" height="20" src="main_clip_image016_0021.gif" /> второй степени  дискриминант <img width="36" height="16" src="main_clip_image018_0018.gif" />, то такую дробь интегрируют методом неопределенных  коэффициентов.<br />
+  <strong>ПРИМЕРЫ</strong><br />
+  <strong><u>Пример 2.4.1.</u></strong> <strong><img width="261" height="39" src="main_clip_image020_0017.gif" /></strong><img width="108" height="39" src="main_clip_image022_0017.gif" />.<br />
+  <strong><u>Пример 2.4.2.</u></strong> <img width="76" height="40" src="main_clip_image024_0021.gif" /><img width="228" height="41" src="main_clip_image026_0021.gif" /><img width="127" height="40" src="main_clip_image028_0029.gif" />.<br />
+  <strong><u>Пример 2.4.3.</u> </strong><img width="77" height="25" src="main_clip_image030_0030.gif" /><img width="127" height="39" src="main_clip_image032_0018.gif" /><img width="105" height="35" src="main_clip_image034_0018.gif" />.<br />
+  <strong><u>Пример 2.4.4.</u> </strong><img width="83" height="25" src="main_clip_image036_0016.gif" /><img width="184" height="41" src="main_clip_image038_0015.gif" /><img width="67" height="36" src="main_clip_image040_0015.gif" />.<br />
+  <strong><u>Пример 2.4.5.</u></strong> <img width="45" height="40" src="main_clip_image042_0016.gif" /><img width="367" height="47" src="main_clip_image044_0015.gif" /><img width="96" height="35" src="main_clip_image046_0016.gif" />.<br />
+  <strong><u>Пример 2.4.6.</u></strong> <img width="57" height="25" src="main_clip_image048_0015.gif" /><img width="328" height="75" src="main_clip_image050_0014.gif" /><img width="102" height="38" src="main_clip_image052_0011.gif" /><img width="97" height="38" src="main_clip_image054_0012.gif" />.<br />
+  <strong><u>Пример 2.4.7.</u>      </strong>Найти <img width="64" height="40" src="main_clip_image056_0013.gif" />.<br />
+  Подынтегральная  функция представляет собой неправильную рациональную дробь, т.к. степень  полинома в числителе (=4) больше степени полинома в знаменателе (=2). Поэтому,  перед интегрированием выделим целую часть из данной неправильной  дробно-рациональной функции: <br />
+  <img width="417" height="40" src="main_clip_image058_0013.gif" /><img width="95" height="36" src="main_clip_image060_0013.gif" />.<br />
+  Следовательно, <img width="217" height="36" src="main_clip_image062_0011.gif" />.<br />
+  Проинтегрируем  функции <img width="33" height="20" src="main_clip_image064_0011.gif" /> и <img width="35" height="20" src="main_clip_image066_0012.gif" />.<br />
+  <img width="144" height="25" src="main_clip_image068_0013.gif" /><img width="72" height="39" src="main_clip_image070_0012.gif" />.<br />
+  Интеграл  функции <img width="139" height="36" src="main_clip_image072_0010.gif" /> можно найти,  воспользовавшись табличным интегралом <img width="153" height="39" src="main_clip_image074_0011.gif" /> и правилом  интегрирования, по которому константу можно выносить за знак интеграла:<br />
+  <img width="223" height="36" src="main_clip_image076_0011.gif" /><img width="223" height="39" src="main_clip_image078_0011.gif" /></p>
+<p align="justify" class="style38">Однако, т.к.  функция <img width="45" height="20" src="main_clip_image002_0029.gif" />правильная рациональная дробь, знаменатель которой – <img width="57" height="23" src="main_clip_image004_0030.gif" />полином 2-ой степени, продемонстрируем на его примере метод  неопределенных коэффициентов.<br />
+  Найдем корни  знаменателя функции <img width="35" height="20" src="main_clip_image006_0026.gif" />: из <img width="67" height="23" src="main_clip_image008_0025.gif" /> следует, что корни равны <img width="35" height="16" src="main_clip_image010_0024.gif" /> и <img width="40" height="17" src="main_clip_image012_0023.gif" />.<br />
+  Представим  дробь <img width="35" height="20" src="main_clip_image006_0027.gif" /> в виде суммы дробей с  неопределенными коэффициентами <em>А</em> и <em>В</em>:<br />
+  <img width="391" height="40" src="main_clip_image015_0004.gif" />.<br />
+  Значения  коэффициентов <em>А</em> и <em>В </em>найдем из системы уравнений: <img width="96" height="41" src="main_clip_image017_0005.gif" /><br />
+  В нашем случае <img width="44" height="19" src="main_clip_image019_0004.gif" />коэффициент перед <em>x</em> в числителе, <img width="48" height="19" src="main_clip_image021_0005.gif" />свободный член в числителе, <img width="35" height="16" src="main_clip_image010_0025.gif" /> и <img width="40" height="17" src="main_clip_image012_0024.gif" /> -  корни знаменателя, причем, что очень важно, <img width="25" height="13" src="main_clip_image023_0006.gif" />корень из дроби с неопределенным коэффициентом <em>А</em>, <img width="23" height="17" src="main_clip_image025_0004.gif" />корень из дроби с неопределенным коэффициентом <em>В</em>. <br />
+  <img width="111" height="41" src="main_clip_image027_0005.gif" /><img width="144" height="41" src="main_clip_image029_0005.gif" /><img width="103" height="41" src="main_clip_image031_0004.gif" /><img width="103" height="41" src="main_clip_image033_0005.gif" /><img width="79" height="41" src="main_clip_image035_0005.gif" /><img width="117" height="19" src="main_clip_image037_0006.gif" />.<br />
+  Зная  значения коэффициентов <em>А</em> и <em>В</em>, найдем интеграл функции <img width="35" height="20" src="main_clip_image006_0028.gif" />:<br />
+  <img width="273" height="36" src="main_clip_image039_0006.gif" /><img width="382" height="34" src="main_clip_image041_0005.gif" /><br />
+  <img width="106" height="38" src="main_clip_image043_0005.gif" />.<br />
+  Таким образом, <img width="275" height="25" src="main_clip_image045_0005.gif" /><img width="75" height="36" src="main_clip_image047_0006.gif" /><br />
+  <img width="107" height="47" src="main_clip_image049_0006.gif" /><img width="120" height="41" src="main_clip_image051_0006.gif" /><img width="57" height="39" src="main_clip_image053_0007.gif" /><img width="91" height="38" src="main_clip_image055_0006.gif" />.</p>
+<p align="justify" class="style38"><strong><u>Пример 2.4.8.</u></strong> Найти <img width="65" height="36" src="main_clip_image057_0005.gif" />.<br />
+  Подынтегральная  функция <img width="57" height="36" src="main_clip_image059_0004.gif" /> представляет собой правильную  рациональную дробь, с полиномом 2-ой степени в знаменателе. Для выбора метода  интегрирования определим, имеет ли полином <img width="64" height="23" src="main_clip_image061_0004.gif" /> действительные корни.<br />
+  Дискриминант <img width="201" height="23" src="main_clip_image063_0005.gif" /> действительных корней  нет и можно попробовать выделить полный квадрат в знаменателе, чтобы  воспользоваться формулой (XVI) <img width="141" height="36" src="main_clip_image065_0005.gif" />.<br />
+  <img width="368" height="39" src="main_clip_image067_0003.gif" /><img width="125" height="44" src="main_clip_image069_0003.gif" /><img width="141" height="40" src="main_clip_image071_0005.gif" />.<br />
+  <strong>Вопросы и упражнения для самоконтроля</strong></p>
+<div align="justify" class="style37">
+  <ul class="style17">
+    <li>Какие методы интегрирования были использованы в примерах  2.4.1. – 2.4.8 и почему именно они?</li>
+    <li>Как можно проверить правильность найденного  интеграла? </li>
+    <li>Найти  интегралы:</li>
+  </ul>
+</div>
+<p align="justify" class="style38"><strong>3.1.</strong> <img width="47" height="27" src="main_clip_image073_0003.gif" />;                          <strong>3.2.</strong> <img width="41" height="35" src="main_clip_image075_0003.gif" />;                        <strong>3.3.</strong> <img width="61" height="25" src="main_clip_image077_0002.gif" />. </p>
+<p align="justify" class="style38"><strong>УПРАЖНЕНИЯ</strong><br />
+  Найти интегралы:</p>
+<div align="justify" class="style37">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><strong><img width="135" height="25" src="main_clip_image079_0002.gif" /></strong>;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="92" height="41" src="main_clip_image081_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="63" height="39" src="main_clip_image083_0004.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="93" height="47" src="main_clip_image085_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><strong><img width="69" height="27" src="main_clip_image087_0004.gif" /></strong>;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="53" height="25" src="main_clip_image089_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="52" height="44" src="main_clip_image091_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="53" height="35" src="main_clip_image093_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><strong><img width="84" height="29" src="main_clip_image095_0003.gif" /></strong>;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="43" height="37" src="main_clip_image097_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="73" height="40" src="main_clip_image099_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="56" height="28" src="main_clip_image101_0004.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><strong><img width="81" height="25" src="main_clip_image103_0004.gif" /></strong>;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="89" height="25" src="main_clip_image105_0004.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="76" height="40" src="main_clip_image107_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="52" height="25" src="main_clip_image109_0004.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><img width="79" height="43" src="main_clip_image111_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="59" height="28" src="main_clip_image113_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="89" height="25" src="main_clip_image115_0001.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="87" height="37" src="main_clip_image117_0000.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><strong><img width="44" height="25" src="main_clip_image119_0001.gif" />;</strong></li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="52" height="39" src="main_clip_image121_0001.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="49" height="25" src="main_clip_image123_0001.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="72" height="31" src="main_clip_image125_0001.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><img width="76" height="34" src="main_clip_image127_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="57" height="39" src="main_clip_image129_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="83" height="33" src="main_clip_image131_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="55" height="36" src="main_clip_image133_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><img width="65" height="39" src="main_clip_image135_0004.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="96" height="43" src="main_clip_image137_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="51" height="25" src="main_clip_image139_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="63" height="25" src="main_clip_image141_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="27%" class="style17"><ul>
+        <ul>
+          <li><img width="60" height="35" src="main_clip_image143_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="81" height="36" src="main_clip_image145_0002.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="92" height="35" src="main_clip_image147_0003.gif" />;</li>
+        </ul>
+      </ul></td>
+      <td width="24%" class="style17"><ul>
+        <ul>
+          <li><img width="53" height="36" src="main_clip_image149_0002.gif" />.</li>
+        </ul>
+      </ul></td>
+    </tr>
+  </table>
+</div>
+<p align="center" class="style3"><span class="style36">2.5. Определенный интеграл и его приложения</span></p>
+<p align="justify" class="style3"><span class="style38">Пусть  функция <img width="31" height="20" src="main_clip_image002_0030.gif" /> определена на отрезке <img width="33" height="19" src="main_clip_image004_0031.gif" />. <br />
+  Разделим  отрезок <img width="33" height="19" src="main_clip_image004_0032.gif" /> на <em>n</em> произвольных частей точками <img width="197" height="20" src="main_clip_image007_0003.gif" />, выберем на каждом элементарном отрезке <img width="55" height="20" src="main_clip_image009_0000.gif" /> произвольную точку <img width="17" height="20" src="main_clip_image011_0001.gif" /> и найдем длину каждого  такого отрезка: <img width="89" height="20" src="main_clip_image013_0002.gif" />. <br />
+  <strong><em>Интегральной  суммой</em></strong> для функции <img width="31" height="19" src="main_clip_image015_0005.gif" /> на отрезке <img width="33" height="19" src="main_clip_image004_0033.gif" /> называется сумма вида <img width="100" height="41" src="main_clip_image018_0019.gif" />, причем эта сумма имеет конечный предел <em>I</em>, если для  каждого <img width="32" height="16" src="main_clip_image020_0018.gif" /> найдется такое число <img width="33" height="16" src="main_clip_image022_0018.gif" />, что при <img width="75" height="20" src="main_clip_image024_0022.gif" /> неравенство <img width="63" height="23" src="main_clip_image026_0022.gif" /> выполняется при любом  выборе чисел <img width="17" height="20" src="main_clip_image011_0002.gif" />.<br />
+  <strong><em>Определенным  интегралом</em></strong> от функции <img width="31" height="20" src="main_clip_image002_0031.gif" /> на отрезке <img width="33" height="19" src="main_clip_image004_0034.gif" /> (или в пределах от <em>a</em> до <em>b</em>) называется предел интегральной  суммы при условии, что длина наибольшего из элементарных отрезков (<img width="52" height="20" src="main_clip_image031_0005.gif" />) стремится к нулю:<br />
+  <img width="280" height="44" src="main_clip_image033_0006.gif" />.<br />
+  Числа <em>a</em> и <em>b </em>называются, соответственно,<strong><em> нижним и верхним пределами интегрирования.</em></strong></span></p>
+<p class="style38"><u>Теорема  существования определенного интеграла.</u> Если функция <img width="31" height="19" src="main_clip_image015_0006.gif" /> непрерывна на отрезке <img width="33" height="19" src="main_clip_image004_0035.gif" />, то предел интегральной суммы существует и не зависит от  способа разбиения отрезка <img width="33" height="19" src="main_clip_image004_0036.gif" /> на элементарные  отрезки и от выбора точек <img width="17" height="20" src="main_clip_image011_0003.gif" />.<br />
+    <strong><u>Основные свойства определенного  интеграла</u></strong><br />
+    <strong>1. </strong><img width="125" height="44" src="main_clip_image039_0007.gif" />;                                                              <strong>4. </strong><img width="236" height="44" src="main_clip_image041_0006.gif" />;<br />
+    <strong>2. </strong><img width="75" height="44" src="main_clip_image043_0006.gif" />;                                                               <strong>5. </strong><img width="140" height="44" src="main_clip_image045_0006.gif" />, где <em>С</em> – постоянная; <br />
+    <strong>3. </strong><img width="180" height="44" src="main_clip_image047_0007.gif" />;                            <strong>6. </strong>если <img width="81" height="20" src="main_clip_image049_0007.gif" /> на <img width="33" height="19" src="main_clip_image004_0037.gif" />, то <img width="176" height="44" src="main_clip_image052_0012.gif" />.<br />
+    <strong><u>Правила вычисления  определенного интеграла</u></strong><br />
+    <strong>1.</strong> <strong><em>Формула Ньютона-Лейбница</em></strong>: <img width="184" height="44" src="main_clip_image054_0013.gif" />, где <img width="32" height="20" src="main_clip_image056_0014.gif" /> -  первообразная для <img width="31" height="20" src="main_clip_image002_0032.gif" />, т.е. <img width="73" height="20" src="main_clip_image059_0005.gif" />.<br />
+    <strong>2.</strong> <strong><em>Интегрирование по частям</em></strong>: <img width="119" height="44" src="main_clip_image061_0005.gif" />, где <img width="49" height="20" src="main_clip_image063_0006.gif" />, <img width="47" height="20" src="main_clip_image065_0006.gif" />-  непрерывно дифференцируемые функции на отрезке <img width="33" height="19" src="main_clip_image004_0038.gif" />.<br />
+    <strong>3.</strong> <strong><em>Замена переменной</em></strong>: <img width="157" height="44" src="main_clip_image068_0014.gif" />, где <img width="48" height="20" src="main_clip_image070_0013.gif" /> -  функция, непрерывная вместе со своей производной <img width="29" height="20" src="main_clip_image072_0011.gif" /> на отрезке <img width="169" height="20" src="main_clip_image074_0012.gif" /><img width="59" height="24" src="main_clip_image076_0012.gif" />функция, непрерывная на <img width="35" height="20" src="main_clip_image078_0012.gif" />.<br />
+    <strong>4.</strong> <img width="77" height="44" src="main_clip_image080_0011.gif" />, если <img width="31" height="20" src="main_clip_image002_0033.gif" /> -  нечетная функция, т.е. <img width="85" height="20" src="main_clip_image083_0005.gif" />. <br />
+    <img width="129" height="44" src="main_clip_image085_0004.gif" />, если<img width="31" height="20" src="main_clip_image002_0034.gif" /> -  четная функция, т.е.<img width="77" height="20" src="main_clip_image088_0010.gif" />. </p>
+<p class="style38">Если <img width="51" height="20" src="main_clip_image090_0011.gif" /> на <img width="33" height="19" src="main_clip_image004_0039.gif" />, то определенный интеграл <img width="55" height="44" src="main_clip_image093_0004.gif" /> геометрически представляет  собой <strong><em>площадь криволинейной трапеции</em></strong> – фигуры, ограниченной линиями <img width="52" height="20" src="main_clip_image095_0004.gif" />, <img width="33" height="13" src="main_clip_image097_0004.gif" />, <img width="32" height="17" src="main_clip_image099_0004.gif" />, <img width="33" height="19" src="main_clip_image101_0005.gif" />. <br />
+  Таким  образом, площадь криволинейной трапеции, ограниченной  кривой <img width="52" height="20" src="main_clip_image095_0005.gif" />[<img width="51" height="20" src="main_clip_image090_0012.gif" />],  прямыми <img width="33" height="13" src="main_clip_image097_0005.gif" /> и <img width="32" height="17" src="main_clip_image099_0005.gif" /> и отрезком <img width="33" height="19" src="main_clip_image004_0040.gif" /> оси <em>Ох</em>, вычисляется по формуле <img width="76" height="44" src="main_clip_image108_0003.gif" />.<br />
+  Площадь  фигуры, ограниченной прямыми <img width="33" height="13" src="main_clip_image097_0006.gif" />; <img width="32" height="17" src="main_clip_image099_0006.gif" /> и линиями <img width="55" height="20" src="main_clip_image112_0004.gif" />; <img width="56" height="20" src="main_clip_image114_0004.gif" />, причем<img width="77" height="20" src="main_clip_image116_0005.gif" />на отрезке [<em>a</em>,<em>b</em>], находится  по формуле <img width="128" height="44" src="main_clip_image118_0004.gif" />.<br />
+  <strong>ПРИМЕРЫ</strong><br />
+  <strong><u>Пример 2.5.1.</u></strong> <img width="37" height="44" src="main_clip_image120_0004.gif" /><img width="148" height="51" src="main_clip_image122_0004.gif" /><img width="29" height="13" src="main_clip_image124_0005.gif" />.<br />
+  <strong><u>Пример 2.5.2.</u></strong> <img width="43" height="44" src="main_clip_image126_0003.gif" /><img width="208" height="61" src="main_clip_image128_0001.gif" /><img width="71" height="34" src="main_clip_image130_0001.gif" /><img width="63" height="34" src="main_clip_image132_0001.gif" />.<br />
+  <strong><u>Пример 2.5.3.</u> </strong><img width="51" height="44" src="main_clip_image134_0001.gif" /><img width="255" height="46" src="main_clip_image136_0001.gif" /><img width="101" height="36" src="main_clip_image138_0002.gif" /><br />
+  <img width="299" height="36" src="main_clip_image140_0002.gif" /><img width="51" height="34" src="main_clip_image142_0002.gif" />.<br />
+  <strong><u>Пример  2.5.4.</u> </strong><br />
+  Вычислим площадь плоской фигуры,  ограниченной линиями: <img width="57" height="23" src="main_clip_image144_0002.gif" /> и <img width="39" height="23" src="main_clip_image146_0001.gif" /> (см. рисунок).<br />
+  Найдем точки пересечения заданных  линий, приравняв их функции <img width="57" height="23" src="main_clip_image144_0003.gif" /> и <img width="39" height="23" src="main_clip_image146_0002.gif" />друг другу: <img width="64" height="20" src="main_clip_image148_0001.gif" />. Откуда, решая квадратное уравнение: <img width="75" height="20" src="main_clip_image150_0001.gif" />, получим <img width="51" height="21" src="main_clip_image152_0001.gif" />.</p>
+<p class="style38">&nbsp;</p>
+<p class="style38"><img width="219" height="166" src="main_clip_image003.gif" /><strong>&nbsp;</strong></p>
+<p class="style38"><strong>&nbsp;</strong></p>
+<p align="center" class="style38"><strong>&nbsp;</strong></p>
+<span class="style38"><br clear="all" />
+</span>
+<p class="style38">Таким  образом, точки пересечения заданных линий <img width="57" height="23" src="main_clip_image005_0000.gif" />; <img width="39" height="23" src="main_clip_image006_0029.gif" />, которые играют роль границ интегрирования, равны: <img width="39" height="16" src="main_clip_image008_0026.gif" />, <img width="29" height="17" src="main_clip_image010_0026.gif" />, и <img width="59" height="23" src="main_clip_image012_0025.gif" />&gt;<img width="39" height="23" src="main_clip_image014_0022.gif" /> (см. рисунок) на отрезке <img width="77" height="20" src="main_clip_image016_0022.gif" />. Следовательно, площадь плоской фигуры, ограниченной  линиями: <img width="57" height="23" src="main_clip_image005_0001.gif" /> и <img width="39" height="23" src="main_clip_image006_0030.gif" /> равна:<br />
+    <img width="349" height="44" src="main_clip_image018_0020.gif" /> <br />
+  (с учетом формулы для  симметричных границ интегрирования четной функции – правило (4))<br />
+  <img width="204" height="44" src="main_clip_image020_0019.gif" /><img width="71" height="55" src="main_clip_image022_0019.gif" /><img width="115" height="38" src="main_clip_image024_0023.gif" /><img width="39" height="17" src="main_clip_image026_0023.gif" /> (кв.ед.).</p>
+<p align="center" class="style38"><strong>Вопросы и упражнения  для самоконтроля</strong></p>
+<ol class="style38">
+  <li>В чем основное содержательное различие  определенного и неопределенного интегралов?</li>
+  <li>Что происходит с границами интегрирования при  использовании разных методов вычисления интеграла? </li>
+</ol>
+<p align="center" class="style38"><strong>УПРАЖНЕНИЯ</strong><br />
+  Вычислить интегралы: </p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="47" height="44" src="main_clip_image028_0030.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="41" height="47" src="main_clip_image030_0031.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="53" height="44" src="main_clip_image032_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="76" height="44" src="main_clip_image034_0019.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="93" height="45" src="main_clip_image036_0017.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="48" height="44" src="main_clip_image038_0016.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="53" height="44" src="main_clip_image040_0016.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="25%" class="style38"><ol>
+      <ol>
+        <li><img width="51" height="44" src="main_clip_image042_0017.gif" />.</li>
+      </ol>
+    </ol></td>
+  </tr>
+</table>
+<p class="style38">Вычислить площадь плоской  фигуры, ограниченной линиями: </p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr>
+    <td width="33%" class="style38"><ol>
+      <ol>
+        <li><strong><img width="59" height="23" src="main_clip_image044_0016.gif" />, <img width="33" height="19" src="main_clip_image046_0017.gif" /></strong>;</li>
+      </ol>
+    </ol></td>
+    <td width="33%" class="style38"><ol>
+      <ol>
+        <li><img width="39" height="19" src="main_clip_image048_0016.gif" />, <img width="33" height="17" src="main_clip_image050_0015.gif" /> <img width="36" height="17" src="main_clip_image052_0013.gif" /> <img width="33" height="19" src="main_clip_image046_0018.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="33%" class="style38"><ol>
+      <ol>
+        <li><img width="47" height="20" src="main_clip_image055_0007.gif" />, <img width="35" height="15" src="main_clip_image057_0006.gif" /> <img width="33" height="19" src="main_clip_image059_0006.gif" />;</li>
+      </ol>
+    </ol></td>
+  </tr>
+  <tr>
+    <td width="33%" class="style38"><ol>
+      <ol>
+        <li><img width="68" height="23" src="main_clip_image061_0006.gif" />, <img width="53" height="19" src="main_clip_image063_0007.gif" />;</li>
+      </ol>
+    </ol></td>
+    <td width="33%" class="style38"><ol>
+      <ol>
+        <li><img width="71" height="19" src="main_clip_image065_0007.gif" />, <img width="33" height="19" src="main_clip_image046_0019.gif" />.</li>
+      </ol>
+    </ol></td>
+    <td width="33%" class="style38"><p>&nbsp;</p></td>
+  </tr>
+</table>
+<p align="center" class="style3"><strong>&nbsp;</strong></p>
+<p align="center" class="style3"><span class="style36"><strong>Контрольная работа по  теме: «Интегрирование»</strong><br />
+  (тренировочный  вариант)</span></p>
+<p align="justify" class="style3"><span class="style38">Найти интегралы:<br />
+  <strong>№ 1. </strong><img width="55" height="39" src="main_clip_image068_0015.gif" />;                                  <strong>№ 2. </strong><img width="53" height="36" src="main_clip_image070_0014.gif" />;                                  <strong>№ 3. </strong><img width="73" height="25" src="main_clip_image072_0012.gif" />;<br />
+  <strong>№ 4. </strong><img width="91" height="37" src="main_clip_image074_0013.gif" />;                     <strong>№ 5. </strong><img width="75" height="36" src="main_clip_image076_0013.gif" />.<br />
+  <strong>№ 6. </strong>Вычислить: <img width="57" height="44" src="main_clip_image078_0013.gif" />.<br />
+  <strong>№  7. </strong>Вычислить площадь плоской фигуры, ограниченной линиями: <img width="47" height="23" src="main_clip_image080_0012.gif" />, <img width="72" height="19" src="main_clip_image082_0014.gif" />.</span></p>
+<p align="center" class="style3"><strong><span class="style36">ОТВЕТЫ</span><span class="style38"> по разделу 2. ЭЛЕМЕНТЫ МАТЕМАТИЧЕСКОГО АНАЛИЗА</span></strong></p>
+<p align="justify" class="style3"><span class="style38"><strong>2.1. Пределы</strong><br />
+    <strong>2.7. </strong>– 0,12; <strong>2.8. </strong>+ ¥; <strong>2.9. </strong>– 0,5; <strong>2.10. </strong>0; <strong>2.11. </strong>¥; <strong>2.12. </strong>– 1; <strong>2.13. </strong>3; <strong>2.14. </strong>0,5; <strong>2.15. </strong>9/11;<strong> 2.16. </strong>13/14; <strong>2.17. </strong>4/3; <strong>2.18. </strong>–  6; <strong>2.19. </strong>1/3; <strong>2.20. </strong>0,1;<strong> 2.21. </strong>– 0,5; <br />
+    <strong>2.22. </strong>3; <strong>2.23. </strong>2; <strong>2.24. </strong>0; <strong>2.25. </strong>0; <strong>2.26. </strong>¥; <strong>2.27. </strong>0,25; </span><span class="style40"><span class="style17"><strong>2.28. </strong>0,5; <strong>2.29. </strong>0,05; <strong>2.30. </strong>– 1/16; <strong>2.31. </strong>0; <strong>2.32. </strong>0; <strong>2.33 </strong>–  1/12; <strong>2.34. </strong>2; <strong>2.35. </strong>96; <strong>2.36. </strong>4; <strong>2.37. </strong>2; <strong>2.38. </strong>2; <br />
+  <strong>2.40. </strong>5/3; <strong>2.41. </strong>1; <strong>2.42. </strong>0,4; <strong>2.43. </strong></span><span class="style17">¥; <strong>2.44. </strong>0,5; <strong>2.45. </strong>2; <strong>2.46. </strong>2; <strong>2.47. </strong>2; <strong>2.48. </strong>0;<strong> 2.49. </strong>2,25;<strong> 2.50. </strong>1/3;<strong> 2.51. </strong>0,5;<strong> 2.52. <img width="9" height="12" src="main_clip_image002_0035.gif" />; 2.53. <img width="15" height="17" src="main_clip_image004_0041.gif" /></strong>;<strong> 2.54. <img width="15" height="17" src="main_clip_image004_0042.gif" /></strong>;<strong> 2.55. <img width="13" height="17" src="main_clip_image007_0004.gif" /></strong>; <br />
+    <strong>2.56. <img width="19" height="17" src="main_clip_image009_0001.gif" /></strong>; <strong>2.57.</strong> <strong><img width="13" height="17" src="main_clip_image011_0004.gif" /></strong>;<strong> 2.58. <img width="17" height="17" src="main_clip_image013_0003.gif" /></strong>;<strong> 2.59. <img width="9" height="12" src="main_clip_image002_0036.gif" /></strong>;<strong> 2.60. </strong>3;<strong> 2.61. </strong>0,5;<strong> 2.62. <img width="24" height="17" src="main_clip_image016_0023.gif" /></strong>;<strong> 2.63. <img width="17" height="17" src="main_clip_image018_0021.gif" /></strong>;<strong> 2.64. <img width="13" height="17" src="main_clip_image007_0005.gif" /></strong>;<strong> 2.65. <img width="17" height="17" src="main_clip_image021_0006.gif" /></strong>;<strong> 2.66. <img width="15" height="17" src="main_clip_image004_0043.gif" /></strong>;<strong> 2.67. <img width="9" height="12" src="main_clip_image002_0037.gif" /></strong>;<strong> 2.68. </strong>2/7.<br />
+    <strong>2.2. Производная и дифференциал функции </strong><br />
+    <strong>2.69. </strong><img width="29" height="31" src="main_clip_image024_0024.gif" />; <strong>2.70. <img width="19" height="20" src="main_clip_image026_0024.gif" /></strong>; <strong>2.71. <img width="49" height="19" src="main_clip_image028_0031.gif" /></strong>; <strong>2.72. </strong><img width="42" height="17" src="main_clip_image030_0032.gif" />; <strong>2.73. </strong><img width="36" height="31" src="main_clip_image032_0020.gif" />; <strong>2.74. </strong><img width="49" height="35" src="main_clip_image034_0020.gif" />; <strong>2.75. <img width="25" height="16" src="main_clip_image036_0018.gif" /></strong>; <strong>2.76. <img width="39" height="17" src="main_clip_image038_0017.gif" /></strong>; <strong>2.77. </strong><img width="39" height="31" src="main_clip_image040_0017.gif" />;<strong> 2.78. </strong><img width="44" height="31" src="main_clip_image042_0018.gif" />; <br />
+    <strong>2.79. <img width="48" height="36" src="main_clip_image044_0017.gif" /></strong>; <strong>2.80. <img width="60" height="16" src="main_clip_image046_0020.gif" /></strong>; <strong>2.81. </strong><img width="37" height="15" src="main_clip_image048_0017.gif" />;<strong> 2.82. </strong><img width="85" height="17" src="main_clip_image050_0016.gif" />; <strong>2.83. </strong><img width="27" height="15" src="main_clip_image052_0014.gif" />; <strong>2.84. <img width="35" height="31" src="main_clip_image054_0014.gif" /></strong>; <strong>2.85. <img width="24" height="19" src="main_clip_image056_0015.gif" /></strong>;<strong> 2.86. <img width="37" height="19" src="main_clip_image058_0014.gif" /></strong>; <strong>2.87. </strong><img width="59" height="35" src="main_clip_image060_0014.gif" />; <br />
+    <strong>2.88. <img width="73" height="35" src="main_clip_image062_0012.gif" /></strong>; <strong>2.89. </strong><img width="87" height="37" src="main_clip_image064_0012.gif" />;<strong> 2.90. <img width="44" height="17" src="main_clip_image066_0013.gif" /></strong>; <strong>2.91. </strong><img width="52" height="17" src="main_clip_image068_0016.gif" />; <strong>2.92. </strong><img width="35" height="32" src="main_clip_image070_0015.gif" />; <strong>2.93. <img width="47" height="33" src="main_clip_image072_0013.gif" /></strong>;<strong> 2.94. <img width="45" height="35" src="main_clip_image074_0014.gif" /></strong>; <strong>2.95. <img width="45" height="36" src="main_clip_image076_0014.gif" /></strong>; <br />
+    <strong>2.96. <img width="69" height="17" src="main_clip_image078_0014.gif" /></strong>; <strong>2.97. <img width="65" height="17" src="main_clip_image080_0013.gif" /></strong>;<strong> 2.98. <img width="43" height="31" src="main_clip_image082_0015.gif" /></strong>; <strong>2.99. <img width="108" height="33" src="main_clip_image084_0009.gif" /></strong>; <strong>2.100. <img width="33" height="31" src="main_clip_image086_0008.gif" /></strong>; <strong>2.101. </strong><img width="79" height="33" src="main_clip_image088_0011.gif" />;<strong> 2.102. <img width="56" height="36" src="main_clip_image090_0013.gif" /></strong>; <br />
+    <strong>2.103. </strong><img width="79" height="51" src="main_clip_image092_0010.gif" />; <strong>2.104. <img width="84" height="61" src="main_clip_image094_0007.gif" /></strong>; <strong>2.105. <img width="37" height="35" src="main_clip_image096_0008.gif" /></strong>;<strong> 2.106. <img width="103" height="40" src="main_clip_image098_0008.gif" /></strong>; <strong>2.107. <img width="44" height="37" src="main_clip_image100_0007.gif" /></strong>; <strong>2.108. <img width="72" height="19" src="main_clip_image102_0006.gif" /></strong>; <br />
+    <strong>2.109. <img width="129" height="36" src="main_clip_image104_0005.gif" /></strong>;<strong> 2.110. <img width="45" height="32" src="main_clip_image106_0003.gif" /></strong>; <strong>2.111. </strong><img width="52" height="19" src="main_clip_image108_0004.gif" />; <strong>2.112. </strong><img width="51" height="17" src="main_clip_image110_0003.gif" />; <strong>2.113. </strong><img width="129" height="35" src="main_clip_image112_0005.gif" />; <br />
+    <strong>2.114. </strong><img width="153" height="35" src="main_clip_image114_0005.gif" />; <strong>2.115. </strong><img width="251" height="37" src="main_clip_image116_0006.gif" />; <strong>2.116. </strong><img width="69" height="21" src="main_clip_image118_0005.gif" />; <br />
+    <strong>2.117. <img width="201" height="36" src="main_clip_image120_0005.gif" /></strong>; <strong>2.118. <img width="60" height="35" src="main_clip_image122_0005.gif" /></strong>;<strong> 2.119. <img width="115" height="35" src="main_clip_image124_0006.gif" /></strong>; <strong>2.120. <img width="52" height="35" src="main_clip_image126_0004.gif" /></strong>; <strong>2.121. <img width="16" height="15" src="main_clip_image128_0002.gif" /></strong>; <br />
+    <strong>2.122. <img width="43" height="31" src="main_clip_image130_0002.gif" /></strong>; <strong>2.123. </strong><img width="69" height="35" src="main_clip_image132_0002.gif" />; <strong>2.124. <img width="75" height="32" src="main_clip_image134_0002.gif" /></strong>; <strong>2.125. </strong><img width="40" height="32" src="main_clip_image136_0002.gif" />; <strong>2.126. </strong><img width="48" height="32" src="main_clip_image138_0003.gif" />; <strong>2.127. <img width="31" height="37" src="main_clip_image140_0003.gif" /></strong>; <strong>2.128. </strong><img width="35" height="35" src="main_clip_image142_0003.gif" />; <strong>2.129. </strong><img width="55" height="31" src="main_clip_image144_0004.gif" />; <br />
+    <strong>2.130. </strong><img width="28" height="31" src="main_clip_image146_0003.gif" />; <strong>2.131. <img width="16" height="13" src="main_clip_image148_0002.gif" /></strong>; <strong>2.132. <img width="16" height="13" src="main_clip_image148_0003.gif" /></strong>; <strong>2.133.</strong> <img width="41" height="20" src="main_clip_image151_0003.gif" />; <strong>2.134. </strong><img width="17" height="17" src="main_clip_image153_0002.gif" />; <strong>2.135.</strong> <img width="16" height="17" src="main_clip_image155_0001.gif" />; <strong>2.136. </strong><img width="16" height="13" src="main_clip_image148_0004.gif" />; <strong>2.137.</strong> <img width="33" height="15" src="main_clip_image158_0001.gif" />.</span></span></p>
+<p align="justify" class="style38"><strong>2.3. Правило Лопиталя</strong><br />
+    <strong>2.138. </strong>0; <strong>2.139. <img width="20" height="15" src="main_clip_image002_0038.gif" /></strong>; <strong>2.140.</strong> 0; <strong>2.141. </strong>1; <strong>2.142. </strong>1; <strong>2.143. </strong>0; <strong>2.144. <img width="13" height="31" src="main_clip_image004_0044.gif" /></strong>; <strong>2.145.</strong> <strong><img width="13" height="11" src="main_clip_image006_0031.gif" /></strong>; <strong>2.146.</strong> <img width="17" height="31" src="main_clip_image008_0027.gif" />; <strong>2.147. </strong>1; <strong>2.148. </strong>1; <strong>2.149.</strong> 0; <strong>2.150.</strong> <img width="12" height="31" src="main_clip_image010_0027.gif" />; <strong>2.151.</strong> <img width="13" height="31" src="main_clip_image012_0026.gif" />; <strong>2.152. </strong>2; <br />
+    <strong>2.153. </strong>1; <strong>2.154. </strong>0; <strong>2.155.</strong> <strong><img width="17" height="17" src="main_clip_image014_0023.gif" /></strong>; <strong>2.156.</strong> 1; <strong>2.157. <img width="13" height="17" src="main_clip_image016_0024.gif" /></strong>; <strong>2.158. <img width="13" height="31" src="main_clip_image004_0045.gif" /></strong>; <strong>2.159.</strong> <strong><img width="21" height="31" src="main_clip_image018_0022.gif" /></strong>; <strong>2.160.</strong> <img width="13" height="31" src="main_clip_image012_0027.gif" />; <strong>2.161.</strong> <strong><img width="21" height="31" src="main_clip_image018_0023.gif" /></strong>; <strong>2.162. </strong>1; <strong>2.163. </strong>2; <strong>2.164. </strong>1; <strong>2.165.</strong> 0.<br />
+    <strong>Контрольная работа по темам: «Пределы и Производные» </strong>(тренировочный вариант)<br />
+    <strong>№ 1. </strong><img width="13" height="31" src="main_clip_image021_0007.gif" />; <strong>№ 2. <img width="13" height="31" src="main_clip_image023_0007.gif" /></strong>; <strong>№ 3. </strong>2; <strong>№ 4. <img width="19" height="17" src="main_clip_image025_0005.gif" />; № 5. </strong>0; <strong>№ 6. </strong><img width="115" height="35" src="main_clip_image027_0006.gif" />; <strong>№ 7. </strong><img width="165" height="36" src="main_clip_image029_0006.gif" />; <br />
+    <strong>№ 8. </strong><img width="139" height="35" src="main_clip_image031_0006.gif" />; <strong>№ 9. </strong><img width="45" height="33" src="main_clip_image033_0007.gif" />.<br />
+    <strong>2.4. Неопределенный  интеграл</strong><br />
+    <strong>2.168. </strong><img width="67" height="31" src="main_clip_image035_0006.gif" />; <strong>2.169. </strong><img width="52" height="31" src="main_clip_image037_0007.gif" />; <strong>2.170. </strong><img width="77" height="31" src="main_clip_image039_0008.gif" />; <strong>2.171. </strong><img width="63" height="19" src="main_clip_image041_0007.gif" />; <strong>2.172. </strong><img width="52" height="19" src="main_clip_image043_0007.gif" />; <strong>2.173. </strong><img width="61" height="31" src="main_clip_image045_0007.gif" />; <br />
+    <strong>2.174. </strong><img width="77" height="31" src="main_clip_image047_0008.gif" />; <strong>2.175. </strong><img width="54" height="21" src="main_clip_image049_0008.gif" />; <strong>2.176. </strong><img width="87" height="29" src="main_clip_image051_0007.gif" />; <strong>2.177. </strong><img width="44" height="29" src="main_clip_image053_0008.gif" />; <strong>2.178. </strong><img width="46" height="16" src="main_clip_image055_0008.gif" />; <strong>2.179. </strong><img width="53" height="29" src="main_clip_image057_0007.gif" />; <br />
+    <strong>2.180. </strong><img width="104" height="32" src="main_clip_image059_0007.gif" />; <strong>2.181. </strong><img width="57" height="31" src="main_clip_image061_0007.gif" />; <strong>2.182. </strong><img width="77" height="33" src="main_clip_image063_0008.gif" />; <strong>2.183. </strong><img width="53" height="33" src="main_clip_image065_0008.gif" />; <strong>2.184. </strong><img width="64" height="29" src="main_clip_image067_0004.gif" />; <strong>2.185. </strong><img width="80" height="40" src="main_clip_image069_0004.gif" />; <br />
+    <strong>2.186. </strong><img width="60" height="14" src="main_clip_image071_0006.gif" />; <strong>2.187. </strong><img width="80" height="20" src="main_clip_image073_0004.gif" />; <strong>2.188. </strong><img width="72" height="31" src="main_clip_image075_0004.gif" />; <strong>2.189. </strong><img width="132" height="17" src="main_clip_image077_0003.gif" />; <strong>2.190. </strong><img width="77" height="31" src="main_clip_image079_0003.gif" />; <br />
+    <strong>2.191. </strong><img width="132" height="32" src="main_clip_image081_0004.gif" />; <strong>2.192. </strong><img width="75" height="37" src="main_clip_image083_0006.gif" />; <strong>2.193. </strong><img width="72" height="35" src="main_clip_image085_0005.gif" />; <strong>2.194. </strong><img width="72" height="31" src="main_clip_image087_0005.gif" />; <strong>2.195. </strong><img width="67" height="36" src="main_clip_image089_0003.gif" />; <br />
+    <strong>2.196. </strong><img width="88" height="18" src="main_clip_image091_0003.gif" />; <strong>2.197. </strong><img width="85" height="14" src="main_clip_image093_0005.gif" />; <strong>2.198. </strong><img width="88" height="21" src="main_clip_image095_0006.gif" />; <strong>2.199. </strong><img width="77" height="31" src="main_clip_image097_0007.gif" />; <strong>2.200. </strong><img width="75" height="37" src="main_clip_image099_0007.gif" />; <br />
+    <strong>2.201. </strong><img width="71" height="35" src="main_clip_image101_0006.gif" />.<br />
+    <strong>2.5. Определенный  интеграл и его приложения</strong><br />
+    <strong>2.202. </strong><img width="17" height="31" src="main_clip_image103_0005.gif" />; <strong>2.203. </strong><img width="36" height="16" src="main_clip_image105_0005.gif" />; <strong>2.204. </strong><img width="56" height="31" src="main_clip_image107_0004.gif" />; <strong>2.205. </strong><img width="27" height="31" src="main_clip_image109_0005.gif" />; <strong>2.206. </strong><img width="12" height="31" src="main_clip_image111_0004.gif" />; <strong>2.207. </strong><img width="23" height="31" src="main_clip_image113_0003.gif" />; <strong>2.208. </strong><img width="40" height="31" src="main_clip_image115_0002.gif" />; <strong>2.209. </strong>2; <strong>2.210. </strong><img width="19" height="31" src="main_clip_image117_0001.gif" />; <strong>2.211. </strong><img width="27" height="15" src="main_clip_image119_0002.gif" />; <strong>2.212.</strong> 1; <br />
+    <strong>2.213. </strong>31,5; <strong>2.214. </strong><img width="19" height="31" src="main_clip_image117_0002.gif" />.<br />
+    <strong>Контрольная  работа по темам: «Интегрирование» </strong>(тренировочный  вариант)<br />
+    <strong>№ 1. </strong><img width="72" height="31" src="main_clip_image121_0002.gif" />; <strong>№ 2. </strong><img width="79" height="31" src="main_clip_image123_0002.gif" />; <strong>№ 3. </strong><img width="106" height="30" src="main_clip_image125_0002.gif" />; <strong>№ 4. </strong><img width="97" height="24" src="main_clip_image127_0003.gif" /><strong>; № 5. </strong><img width="76" height="31" src="main_clip_image129_0004.gif" />; <strong>№ 6. </strong><img width="12" height="31" src="main_clip_image111_0005.gif" />; <strong>№ 7. </strong>4,5.</p>
+<p align="center" class="style36">ЛИТЕРАТУРА</p>
+<ol>
+<div align="justify" class="style16">
+  <ul>
+    <li class="style37">Владимирский  Б.М., Горстко А.Б., Ерусалимский Я.М. Математика. Общий курс: Учебник. – СПб.:  Издательство «Лань», 2004. – 960 с.</li>
+    <li class="style37">Выгодский М.Я.  Справочник по высшей математике. – М.: ООО «Издательство Астрель»: ООО  «Издательство АСТ», 2005. – 991 с.</li>
+    <li class="style37">Данко П.Е., Попов  А.Г., Кожевникова Т.Я. Высшая математика в упражнениях и задачах. В 2-х частях.  Ч.1: Учеб. пособие для втузов. – М.: Высш. шк., 1997. – 304 с.</li>
+    <li class="style37">Кожухов И.Б.,  Прокофьев А.А. Математика. Школьникам и абитуриентам. – М.: Махаон, 2005. – 480  с.</li>
+    <li class="style37">Кричевец А.Н.,  Шикин Е.В., Дьячков А.Г. Математика для психологов: Учебник. – М.: Флинта:  Московский психолого-социальный институт, 2003. – 376 с.</li>
+    <li class="style37">Лунгу К.Н.,  Письменный Д.Т., Федин С.Н., Шевченко Ю.А. Сборник задач по высшей математике.  1 курс. – М.: Айрис-пресс, 2006. – 576 с.</li>
+    <li class="style37">Меняйлов А.И.  Математический практикум: Учебное пособие для высшей школы. – М.: Академический  Проект, 2003. – 192 с.</li>
+    <li class="style37">Сборник формул по  математике (Карманный справочник) – М.: АСТ: Астрель, 2005. – 159 с.</li>
+    <li class="style37">Шипачев В.С.  Задачник по высшей математике: Учеб. пособие для вузов. – М.: Высш. шк., 2004.  – 304 с.</li>
+  </ul>
+</div>
+<p align="justify" class="style16">&nbsp;</p>
+<p align="justify" class="style16">&nbsp;</p>
+<p class="style3">&nbsp;</p>
+<p class="style3">&nbsp;</p>
+<p class="style3">&nbsp;</p>
+</body>
+</html>

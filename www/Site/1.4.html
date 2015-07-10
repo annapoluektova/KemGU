@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+body,td,th {
+	color: #3300FF;
+}
+body {
+	background-color: #FFFFFF;
+}
+.style3 {font-size: 12px}
+.style6 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: #000000;
+	font-style: italic;
+}
+.style7 {color: #CC0099}
+.style8 {font-size: 14pt; color: #3300FF; }
+.style9 {font-size: 14px}
+.style10 {color: #3300FF}
+.style11 {font-size: 14pt}
+-->
+</style></head>
+
+<body>
+<p align="center" class="style3"><span class="style6">1.4. Ранг матрицы</span></p>
+<p align="justify" class="style3"><span class="style7"><span class="style9"><span class="style10"><span class="style11"><strong><em>Минором k-го порядка  матрицы А</em></strong> называется определитель <em>k</em>-го порядка,  составленный из элементов данной матрицы, стоящих на пересечении каких-либо  подряд идущих <em>k</em> строк и <em>k</em> столбцов. <br />
+  Отдельные  элементы матрицы являются минорами 1-го порядка, т.к. стоят на пересечении  одной строки и одного столбца.<br />
+  <strong><em>Рангом </em></strong>матрицы <em>А</em> (<img width="29" height="20" src="main_clip_image002_0005.gif" />, <img width="49" height="20" src="main_clip_image004_0006.gif" />)называется  наибольший из порядков ее миноров, не равных нулю.<br />
+  <strong><em>Базисным  минором</em></strong> называется любой из отличных от нуля миноров матрицы <em>А</em>, порядок которого равен <img width="29" height="20" src="main_clip_image002_0006.gif" />.<br />
+  Например, ранг  матрицы <img width="104" height="41" src="main_clip_image006_0006.gif" /> равен 1 (<img width="48" height="20" src="main_clip_image008_0007.gif" />), т.к. любой из миноров 2-го порядка матрицы <em>А</em> равен нулю, и существует хотя бы один  минор 1-го порядка, не равный 0, например, <img width="36" height="23" src="main_clip_image010_0007.gif" />. Базисным минором матрицы <em>А</em> является каждый из ненулевых миноров 1-го порядка и, собственно,  каждый из ненулевых элементов: <img width="36" height="23" src="main_clip_image010_0008.gif" />; <img width="39" height="23" src="main_clip_image012_0006.gif" />; <img width="40" height="23" src="main_clip_image014_0005.gif" />; <img width="41" height="23" src="main_clip_image016_0005.gif" />.<br />
+  Ранг матрицы <img width="67" height="41" src="main_clip_image018_0005.gif" /> равен 2 (<img width="48" height="20" src="main_clip_image008_0008.gif" />), т.к. существует минор 2-го порядка <img width="88" height="41" src="main_clip_image020_0005.gif" />, а миноров 3-го порядка у матрицы <em>А </em>нет. Единственный базисный минор матрицы <em>А</em> – минор <img width="40" height="41" src="main_clip_image022_0005.gif" />.<br />
+  Эквивалентные  матрицы имеют одинаковые ранги: если <em>В</em> ~ <em>А</em>, то <img width="68" height="20" src="main_clip_image024_0009.gif" />, т.к. при <em>элементарных  преобразованиях</em> ранг матрицы не изменяется.<br />
+  Ранг <em>ступенчатой матрицы</em> равен количеству ее  ненулевых строк.<br />
+  Один из методов  определения ранга матрицы – <strong><em>метод равносильных (элементарных)  преобразований</em></strong>, который заключается в привидении матрицы <em>А</em> путем элементарных преобразований к  ступенчатому виду и подсчету ненулевых строк полученной ступенчатой матрицы.<br />
+  <strong>ПРИМЕРЫ</strong><br />
+  <strong><u>Пример 4.1.</u></strong> Определение ранга  матрицы <img width="121" height="63" src="main_clip_image026_0009.gif" />методом элементарных преобразований.<br />
+  1) Приведение матрицы к ступенчатому виду:<br />
+  <img width="99" height="63" src="main_clip_image028_0009.gif" /><img width="75" height="60" src="main_clip_image030_0010.gif" /> ~ <img width="163" height="63" src="main_clip_image032_0005.gif" /> ~ <img width="163" height="63" src="main_clip_image034_0006.gif" /> ~ <img width="93" height="68" src="main_clip_image036_0004.gif" />.<br />
+  2) Полученная  ступенчатая матрица содержит две ненулевых строки, следовательно, ее ранг и,  соответственно, ранг исходной матрицы равен 2.<br />
+  <u>Ответ:</u> <img width="52" height="20" src="main_clip_image038_0004.gif" /><br />
+  <strong><u>Пример 4.2.</u></strong> Определить ранг  матрицы <img width="139" height="103" src="main_clip_image040_0005.gif" />.<br />
+  1) Приведение матрицы к ступенчатому виду:<br />
+  <img width="116" height="103" src="main_clip_image042_0005.gif" /><img width="52" height="95" src="main_clip_image044_0004.gif" />~<img width="116" height="103" src="main_clip_image046_0005.gif" /> ~ <img width="185" height="103" src="main_clip_image048_0004.gif" />~ <img width="116" height="103" src="main_clip_image050_0005.gif" /> <img width="52" height="95" src="main_clip_image052_0003.gif" />~ <br />
+  ~ <img width="184" height="103" src="main_clip_image054_0003.gif" /> ~ <img width="155" height="103" src="main_clip_image056_0005.gif" />  ~ <img width="177" height="103" src="main_clip_image058_0004.gif" />~ <img width="107" height="108" src="main_clip_image060_0004.gif" />.<br />
+  2) Полученная  ступенчатая матрица содержит три ненулевых строки, следовательно, ее ранг и,  соответственно, ранг исходной матрицы равен 3.<br />
+  <u>Ответ:</u> <img width="52" height="20" src="main_clip_image062_0004.gif" /><br />
+  <strong>УПРАЖНЕНИЯ</strong><br />
+  Определить ранг  матрицы (методом элементарных преобразований):</span></span></span></span></p>
+<div align="justify">
+  <table border="0" cellspacing="0" cellpadding="0" width="669">
+    <tr>
+      <td width="203" class="style8"><ul>
+        <ul>
+          <li><img width="85" height="63" src="main_clip_image064_0004.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="234" class="style8"><ul>
+        <ul>
+          <li><img width="127" height="63" src="main_clip_image066_0004.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="233" class="style8"><ul>
+        <ul>
+          <li><img width="93" height="63" src="main_clip_image068_0004.gif" /></li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="203" class="style8"><ul>
+        <ul>
+          <li><img width="151" height="63" src="main_clip_image070_0004.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="234" class="style8"><ul>
+        <ul>
+          <li><img width="119" height="63" src="main_clip_image072_0003.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="233" class="style8"><ul>
+        <ul>
+          <li><img width="123" height="63" src="main_clip_image074_0003.gif" /></li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="203" class="style8"><ul>
+        <ul>
+          <li><img width="127" height="81" src="main_clip_image076_0003.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="234" class="style8"><ul>
+        <ul>
+          <li><img width="119" height="81" src="main_clip_image078_0002.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="233" class="style8"><ul>
+        <ul>
+          <li><img width="80" height="121" src="main_clip_image080_0002.gif" /></li>
+        </ul>
+      </ul></td>
+    </tr>
+    <tr>
+      <td width="203" valign="top" class="style8"><ul>
+        <ul>
+          <li><img width="140" height="81" src="main_clip_image082_0008.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="234" valign="top" class="style8"><ul>
+        <ul>
+          <li><img width="103" height="81" src="main_clip_image084_0003.gif" /></li>
+        </ul>
+      </ul></td>
+      <td width="233" valign="top" class="style8"><ul>
+        <ul>
+          <li><img width="151" height="81" src="main_clip_image086_0002.gif" /></li>
+        </ul>
+      </ul></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
